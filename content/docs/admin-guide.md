@@ -90,9 +90,9 @@ Every lab must have at least one Lab Director before users can be assigned or fi
 1. Navigate to **Labs**
 1. Click **Create** **Lab**
 1. In the dialog:
-- Select the **Organization**
-- Enter the **Lab** **Name** (display name)
-- Add at least one **Lab** **Director**
+    - Select the **Organization**
+    - Enter the **Lab** **Name** (display name)
+    - Add at least one **Lab** **Director**
 1. Click **Create** **Lab**
 
 The lab will appear in the roster with **Build Status: WORKING** while infrastructure is being provisioned. When complete, the status changes to **SUCCESS** and the lab can accept file uploads.
@@ -124,12 +124,12 @@ Before proceeding: Ensure the user's email domain is on the domain whitelist.
 1. Navigate to **Admin → User Management** 
 1. Click **Add** **User**
 1. Fill in:
-- **Email** **address** — must match the Google account they'll use to log in
-- **Name** — display name in the platform
-- **Organization** — the organization this user belongs to
+    - **Email** **address** — must match the Google account they'll use to log in
+    - **Name** — display name in the platform
+    - **Organization** — the organization this user belongs to
 1. Set role flags if applicable:
-- **Platform** **Admin** — grants full platform access; user cannot be added to labs
-- **Data** **Analyst** — grants platform-wide analytics access; user cannot be added to labs
+    - **Platform** **Admin** — grants full platform access; user cannot be added to labs
+    - **Data** **Analyst** — grants platform-wide analytics access; user cannot be added to labs
 1. Click **Add** **User**
 
 The user will receive a welcome notification. They log in by navigating to the APGAP URL and clicking **Sign** **in** **with** **Google** using the email address you registered.
@@ -159,10 +159,10 @@ From the Lab Roster:
 1. Click **Assign** **User**
 1. Search for the user by email
 1. Select their **Role**:
-- **Lab** **Director** — full lab admin, can approve access requests and manage roster
-- **Lab** **Collaborator** — read/write, no admin capabilities
-- **Lab** **Reader** — read-only
-- **Bioinformatics** **User** — assign at the project level, not the lab level
+    - **Lab** **Director** — full lab admin, can approve access requests and manage roster
+    - **Lab** **Collaborator** — read/write, no admin capabilities
+    - **Lab** **Reader** — read-only
+    - **Bioinformatics** **User** — assign at the project level, not the lab level
 1. Click **Assign** **User**
 
 From User Management:
@@ -197,10 +197,10 @@ Metadata templates define which fields appear for each Source Type (Human, Waste
 To edit an existing field:
 1. Click the **Edit** icon next to the field
 1. Update the settings:
-- **Is** **Required** — whether the field must be filled for PRIMARY status
-- **Value** **Type** — TEXT, NUMBER, DATE, or SELECT
-- **Multiple** **values** — whether a field can accept more than one value (SELECT type only)
-- **Sort** **Order** — display position in the CSV template and UI
+    - **Is** **Required** — whether the field must be filled for PRIMARY status
+    - **Value** **Type** — TEXT, NUMBER, DATE, or SELECT
+    - **Multiple** **values** — whether a field can accept more than one value (SELECT type only)
+    - **Sort** **Order** — display position in the CSV template and UI
 1. For SELECT type fields, add or remove allowable values using the **+Value** button
 1. Click **Save**
 To remove a value from a SELECT field, click the **X** next to the value. Note that some core fields cannot be deleted — these are protected because they are required for NCBI/standards compatibility.
@@ -209,8 +209,8 @@ To remove a value from a SELECT field, click the **X** next to the value. Note t
 1. Navigate to **Admin → Metadata Management** 
 1. Click **Add Custom Key/Value** 
 1. In the dialog:
-- Enter the **Key Name** — will be normalized to uppercase automatically
-- Select the **Key Format** (TEXT, NUMBER, DATE, or SELECT)
+    - Enter the **Key Name** — will be normalized to uppercase automatically
+    - Select the **Key Format** (TEXT, NUMBER, DATE, or SELECT)
 1. Click **Add** **Key**
 The new key will appear in the Metadata Management view and can be added to Source Type templates. It will also appear in CSV template downloads for any Source Type it is associated with.
 
@@ -230,9 +230,9 @@ Log in with a Django superuser account (separate from your APGAP Google OAuth ac
 Use this when you have confirmed that a DRAFT backlog cannot be resolved through metadata entry — for example, old records where the metadata cannot be retroactively obtained.
 1. Navigate to**Admin panel → Files → Files** 
 1. Use the filters on the right to narrow by:
-- **Status = DRAFT** 
-- **Lab = [target lab]** 
-- **Source type = [if applicable]** 
+    - **Status = DRAFT** 
+    - **Lab = [target lab]** 
+    - **Source type = [if applicable]** 
 1. Select the files you want to promote using the checkboxes
 1. From the **Action** dropdown, select **Mark as Primary** 
 1. Click **Go**
@@ -355,9 +355,9 @@ To reset a user's lab assignment:
 Application logs are sent to Google Cloud Logging. To view them:
 1. GCP Console → Logging → Log Explorer
 1. Filter by:
-- **Resource** **type**: k8s_container
-- **Severity**: ERROR or WARNING (for problem investigation)
-- **Filter**: jsonPayload.logger="django" for Django application logs
+    - **Resource** **type**: k8s_container
+    - **Severity**: ERROR or WARNING (for problem investigation)
+    - **Filter**: jsonPayload.logger="django" for Django application logs
 
 Key log signatures
 | Log message | Indicates | Action |
