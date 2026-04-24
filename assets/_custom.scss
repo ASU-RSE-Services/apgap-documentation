@@ -89,6 +89,10 @@ body {
   }
 }
 
+.book-menu .book-menu-content,.book-toc .book-toc-content {
+  top: 0rem
+}
+
 // ============================================
 // SEARCH BOX
 // ============================================
@@ -142,6 +146,7 @@ body {
 
     &:hover {
       background-color: var(--gray-200);
+      color: var(--gray-500);
     }
 
     &.active {
