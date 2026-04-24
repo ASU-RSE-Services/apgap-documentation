@@ -6,8 +6,9 @@ weight = 2
 
 This guide covers common tasks in APGAP, organized by role. Use the table of contents to jump to what you need.
 
-# All Users
-## Log in and navigate the platform
+## All Users
+
+### Log in and navigate the platform
 1. Navigate to https://apgap.prod.rtd.asu.edu
 1. Click **Sign in with Google** and select your institutional account
 1. After login you'll land on the Dashboard
@@ -16,7 +17,7 @@ The left sidebar is your main navigation. What you see depends on your role — 
 
 To log out, click your name or avatar in the top right corner and select **Log out.**
 
-## Update your notification preferences
+### Update your notification preferences
 APGAP sends in-app notifications (the bell icon in the top navigation bar) for events like access request decisions, file status changes, and lab updates. You can control whether these also generate emails.
 
 1. Click your name or avatar in the top right → **Profile** → **Notifications**
@@ -25,8 +26,9 @@ APGAP sends in-app notifications (the bell icon in the top navigation bar) for e
 
 In-app notifications cannot be disabled — only email delivery can be turned off. The notification types available to you depend on your role.
 
-# Lab Collaborators and Lab Readers
-## Upload a sequence file (GUI)
+## Lab Collaborators and Lab Readers
+
+### Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.
 1. Click **Labs** in the sidebar
 1. Select your lab
@@ -37,7 +39,7 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 Your file will show a status of **PROCESSING** for about 30–60 seconds while APGAP scans and registers it. When complete, the status will update to **UPLOADED** or **DRAFT**.
 **Tip**: You can upload multiple files at once using GUI upload. All files will share the same upload session.
 
-## Upload sequence files in bulk (Batch)
+### Upload sequence files in bulk (Batch)
 Batch upload is designed for large volumes of files. Instead of uploading through your browser, APGAP creates a secure Google Cloud Storage endpoint that you transfer files to directly — useful for automated pipelines or very large files.
 
 **Step 1** — **Create a batch endpoint**:
@@ -55,7 +57,7 @@ APGAP will create a GCS bucket and generate a JSON key for authentication. You'l
 1. Use the Google Cloud CLI or your preferred GCS client to transfer files to the bucket
 Files transferred to the batch bucket are automatically ingested into APGAP. They will appear in the Sequences tab as they are processed.
 
-## Download a metadata CSV template
+### Download a metadata CSV template
 Metadata tells APGAP what each sequence file represents — the organism, collection date, location, and other scientific details. APGAP uses Source Types (Human, Wastewater, Wildlife, Animal/Livestock, etc.) to determine which fields are required.
 
 1. Click **Labs** → select your lab → **Sequences** tab
@@ -74,20 +76,20 @@ The first column is always filename. This must contain the exact filename as it 
 
 **Note**: If your Platform Admin has added custom metadata fields via Metadata Management, those fields will appear in the template automatically.
 
-## Fill in a metadata CSV
+### Fill in a metadata CSV
 Once you've downloaded a template, fill it in following these rules:
 
-### Filename column (required for every row)
+#### Filename column (required for every row)
 The filename must exactly match the file's name as it appears in the Sequences tab. Check for:
 - Correct capitalization (APGAP is case-sensitive here)
 - No extra spaces before or after the filename
 - The correct file extension (e.g., .fastq, .fastq.gz, .fasta)
 
-### Required fields
+#### Required fields
 
 Fields marked REQUIRED in Row 2 must have a value for the file to advance from DRAFT to PRIMARY status. Leaving a required field blank will cause that row to remain in DRAFT.
 
-### Controlled vocabulary fields
+#### Controlled vocabulary fields
 
 Some fields accept only values from a defined list — for example, organism names must match the values configured in your platform's Metadata Management settings. If you enter a value that doesn't match, the row will not be processed.
 
@@ -97,19 +99,19 @@ Common controlled vocabulary fields include:
 - Source Type
 - Sequencing Platform
 
-### Date fields
+#### Date fields
 
 Dates should be entered in YYYY-MM-DD format (e.g., 2026-03-15). Other formats may be accepted but can cause inconsistencies — stick to the ISO format to be safe.
 
-### Numeric fields
+#### Numeric fields
 
 Fields like Age or Ct Value should contain numbers only (e.g., 35, not thirty-five or N/A). If a value is not available, leave the field blank rather than entering a placeholder.
 
-### After filling in the CSV:
+#### After filling in the CSV:
 
 Save the file in CSV format (not XLSX). If you opened it in Excel or Numbers, be sure to save as CSV before importing.
 
-## Import a completed metadata CSV
+### Import a completed metadata CSV
 1. Click **Labs** → select your lab → **Sequences** tab
 1. Click **Upload** **CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
 1. Select your **Source** **Type** from the dropdown — this must match the Source Type you used when downloading the template
@@ -131,7 +133,7 @@ Common import errors:
 | "Invalid date format" | Date not in YYYY-MM-DD format | Reformat dates |
 
 
-## Add or edit metadata for a single file
+### Add or edit metadata for a single file
 
 For one-off updates to individual files, you can edit metadata directly in the UI without using a CSV.
 
@@ -143,7 +145,7 @@ For one-off updates to individual files, you can edit metadata directly in the U
 
 Fields marked with a red asterisk are required for PRIMARY status. You can save partial metadata — the file will remain in DRAFT until all required fields are complete.
 
-## Check and understand file status
+### Check and understand file status
 
 Every file has a status shown in the Sequences tab. Here's what each status means and what to do:
 
@@ -160,7 +162,7 @@ Every file has a status shown in the Sequences tab. Here's what each status mean
 **A note on DRAFT files**: A file in DRAFT is safely stored — it isn't lost or corrupted. The DRAFT status simply means required metadata fields are incomplete. Once you add the missing metadata, the file will automatically advance to PRIMARY status.
 To find all DRAFT files in your lab, use the **Filter** or **Search** options in the Sequences tab to filter by status.
 
-## Request access to another lab's files
+### Request access to another lab's files
 
 If you need data from another lab for your analysis, you can request access through the Data Catalog.
 
@@ -176,7 +178,7 @@ The Lab Director who owns those files will receive a notification. You'll be not
 
 **Don't see the dataset you need?** The researcher who owns the data may need to create an Analytical Dataset first. Contact them directly or ask your Lab Director.
 
-## Archive a file
+### Archive a file
 Files in APGAP cannot be permanently deleted without going through an Archive Request. This ensures an auditable record of why files were removed.
 
 1. Navigate to the file you want to archive in the Sequences tab
@@ -189,9 +191,9 @@ Files in APGAP cannot be permanently deleted without going through an Archive Re
 
 Your Lab Director will receive a notification and must approve the request before the file is archived. You'll be notified when a decision is made.
 
-# Lab Directors
+## Lab Directors
 
-## Add a user to your lab
+### Add a user to your lab
 
 New users must already have an account in APGAP before you can add them to your lab. If a user doesn't appear in the search, ask your Platform Admin to create their account first.
 You can add users from two places — from the Lab Roster or from the User Management section. From the Lab Roster:
@@ -209,21 +211,21 @@ The user will receive a notification that they've been added to the lab.
 
 **Note**: Platform Admins and Data Analysts cannot be added to labs — they have platform-wide access and are excluded from lab-level membership by design.
 
-## Change a user's role in your lab
+### Change a user's role in your lab
 A user can only have one role per lab. To change their role, you need to remove them and re-add them with the new role.
 1. Click **Labs** → your lab → **Lab** **Roster** tab
 1. Find the user and click the trash can icon next to their name
 1. Confirm the removal
 1. Click **Assign** **User** and add them back with the new role
 
-## Remove a user from your lab
+### Remove a user from your lab
 1. Click **Labs** → your lab → **Lab** **Roster** tab
 1. Find the user you want to remove
 1. Click the trash can icon next to their name
 1. A confirmation dialog will appear — click **Yes**, **Remove**
 Removing a user from the lab removes their access to all files and projects in the lab. Their account is not deleted from the platform.
 
-## Create a project
+### Create a project
 Projects live inside labs and provide an isolated workspace for a specific analysis effort. Each project can have its own set of Bioinformatics Users and its own Seqera pipeline workspace.
 1. Click **Labs** → your lab → **Projects** tab
 1. Click **Add** **Project**
@@ -232,7 +234,7 @@ Projects live inside labs and provide an isolated workspace for a specific analy
 1. Click **Create** **Project**
 **Note**: Creating a project triggers provisioning of a Seqera workspace in the background. This takes a few minutes. The Pipelines section of the project will be available once provisioning is complete.
 
-## Assign a user to a project
+### Assign a user to a project
 Only users who are already members of your lab can be assigned to projects within that lab. Bioinformatics Users are typically assigned at the project level rather than the lab level.
 1. Click **Labs** → your lab → **Projects** tab → select the project
 1. Click the **Users** tab
@@ -240,7 +242,7 @@ Only users who are already members of your lab can be assigned to projects withi
 1. Select the user and their permissions
 1. Click **Assign** **User**
 
-## Approve or deny an access request
+### Approve or deny an access request
 When a researcher from another lab requests access to files in your lab, you'll receive a notification (the bell icon in the top right).
 1. Click the notification to go directly to the request, or navigate to **Labs** → your lab → **Access** **Requests**
 1. Review the request: who is asking, which files they need, and their stated justification
@@ -252,7 +254,7 @@ The researcher will be notified of your decision immediately.
 
 **Auto-approval**: If your organization has the auto-approval setting enabled, access requests from users within the same organization are approved automatically. You can review and revoke access later if needed.
 
-## Review files in DRAFT status
+### Review files in DRAFT status
 Files stuck in DRAFT are one of the most common lab management tasks. To find them:
 1. Click Labs → your lab → Sequences tab
 1. Use the Filter or Search options to filter by Status = DRAFT
@@ -265,9 +267,9 @@ To export a CSV of all DRAFT files in your lab, click **Download** **CSV** **Tem
 
 If you have a large DRAFT backlog and the metadata cannot be collected, contact your Platform Admin — they have the ability to bulk-promote files to PRIMARY status when a data quality trade-off is justified.
 
-# Bioinformatics Users
+## Bioinformatics Users
 
-## Create an Analytical Dataset
+### Create an Analytical Dataset
 
 An Analytical Dataset is a named, curated collection of files that you want to analyze together. Files can come from any lab you have access to. The dataset is the unit of access — if you need files from another lab, you request access at the dataset level.
 
@@ -278,7 +280,7 @@ An Analytical Dataset is a named, curated collection of files that you want to a
 
 The dataset is created empty. Add files in the next step.
 
-## Add files to an Analytical Dataset
+### Add files to an Analytical Dataset
 1. Open your Analytical Dataset
 1. Click **Add** **Files**
 1. Search for files by lab, source type, organism, or filename
@@ -288,7 +290,7 @@ The dataset is created empty. Add files in the next step.
 If any files you selected belong to labs you don't already have access to, the dataset status will show **PENDING** until the relevant Lab Directors have approved your access requests. You'll be notified as each decision is made.
 Files from labs you already have access to are added immediately.
 
-## Request access to files from another lab
+### Request access to files from another lab
 
 If your Analytical Dataset includes files from labs you don't have access to, APGAP will prompt you to submit access requests.
 
@@ -298,7 +300,7 @@ If your Analytical Dataset includes files from labs you don't have access to, AP
 1. Click **Submit**
 Each Lab Director whose files are included will receive a notification. You can track the status of each request within the dataset view. When all requests are resolved, the dataset becomes available for analysis.
 
-## Launch a pipeline
+### Launch a pipeline
 
 Pipeline launching uses the Seqera Platform integration. Your project must have a provisioned Seqera workspace before pipelines are available.
 
