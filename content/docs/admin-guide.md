@@ -4,6 +4,7 @@ date = 2026-04-07T07:07:07+01:00
 weight = 3
 +++
 
+# APGAP Platform Administrator Guide
 
 This guide covers all administrative operations available to Platform Admins, including routine configuration tasks, user and lab management, metadata template management, and recovery procedures for infrastructure failures.
 

@@ -4,6 +4,8 @@ date = 2026-04-07T07:07:07+01:00
 weight = 1
 +++
 
+# APGAP Quickstart Guide
+
 Welcome to APGAP! This guide will get you up and running in minutes, regardless of your role. If you run into anything that isn't covered here, reach out to your Lab Director or Platform Admin.
 
 ## Before You Begin
