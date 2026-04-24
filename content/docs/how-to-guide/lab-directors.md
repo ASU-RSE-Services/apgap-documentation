@@ -1,7 +1,7 @@
 +++
 title = 'Lab Directors'
 date = 2026-04-07T07:07:07+01:00
-weight = 4
+weight = 3
 +++
 
 # Lab Directors

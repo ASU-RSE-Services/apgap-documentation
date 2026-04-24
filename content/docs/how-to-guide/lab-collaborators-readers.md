@@ -1,7 +1,7 @@
 +++
 title = 'Lab Collaborators and Lab Readers'
 date = 2026-04-07T07:07:07+01:00
-weight = 4
+weight = 2
 +++
 
 # Lab Collaborators and Lab Readers
