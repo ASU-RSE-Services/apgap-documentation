@@ -119,6 +119,6 @@ Every file in APGAP has a status. Here's what they mean:
 The most common status to pay attention to is **DRAFT**. A file in DRAFT has been successfully stored in the platform — it isn't lost — but it needs complete metadata before it can be used in analysis or shared with other researchers.
 
 ## Getting Help
-**Lab-level questions** (access, file issues, metadata): contact your **Lab Director**
-**Account or domain issues**: contact your **Platform Admin**
-**Technical platform issues**: contact the APGAP support team through your organization's helpdesk channel
+- **Lab-level questions** (access, file issues, metadata): contact your **Lab Director**
+- **Account or domain issues**: contact your **Platform Admin**
+- **Technical platform issues**: contact the APGAP support team through your organization's helpdesk channel
