@@ -109,7 +109,6 @@ Every file in APGAP has a status. Here's what they mean:
 | Status | Meaning | Action needed? |
 | --- | --- | --- |
 | **PROCESSING** | File is being scanned and registered | Wait 5-10 minutes |
-| **UPLOADED** | File stored; no metadata required for this file type | None |
 | **DRAFT** | File stored; required metadata fields are incomplete | Add metadata via the UI or CSV upload |
 | **PRIMARY** | File has complete metadata; available for analysis | None |
 | **PII_DETECTED** | File was flagged for potential personal information | Contact your Lab Director immediately |

@@ -130,7 +130,6 @@ Every file has a status shown in the Sequences tab. Here's what each status mean
 | Status | Meaning | What to do |
 | --- | --- | --- |
 | **PROCESSING** | File is being scanned and registered | Wait 1–2 minutes and refresh |
-| **UPLOADED** | File stored successfully; no metadata required for this file type | Nothing — the file is ready |
 | **DRAFT** | File stored; required metadata fields are incomplete | Add metadata via the UI or CSV upload |
 | **PRIMARY** | File has complete metadata; available for analysis | Nothing — the file is ready |
 | **PII_DETECTED** | File was flagged for potential personal information | Contact your Lab Director immediately |
