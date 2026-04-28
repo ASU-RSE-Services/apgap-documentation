@@ -1,31 +1,11 @@
 +++
-title = 'APGAP How-To Guide'
+title = 'Lab Collaborators and Lab Readers'
 date = 2026-04-07T07:07:07+01:00
 weight = 2
 +++
 
-This guide covers common tasks in APGAP, organized by role. Use the table of contents to jump to what you need.
-
-# All Users
-## Log in and navigate the platform
-1. Navigate to https://apgap.prod.rtd.asu.edu
-1. Click **Sign in with Google** and select your institutional account
-1. After login you'll land on the Dashboard
-
-The left sidebar is your main navigation. What you see depends on your role — Platform Admins see an **Admin** section that other users don't.
-
-To log out, click your name or avatar in the top right corner and select **Log out.**
-
-## Update your notification preferences
-APGAP sends in-app notifications (the bell icon in the top navigation bar) for events like access request decisions, file status changes, and lab updates. You can control whether these also generate emails.
-
-1. Click your name or avatar in the top right → **Profile** → **Notifications**
-1. Toggle email notifications on or off for each event type
-1. Click **Save**
-
-In-app notifications cannot be disabled — only email delivery can be turned off. The notification types available to you depend on your role.
-
 # Lab Collaborators and Lab Readers
+
 ## Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.
 1. Click **Labs** in the sidebar
@@ -150,7 +130,6 @@ Every file has a status shown in the Sequences tab. Here's what each status mean
 | Status | Meaning | What to do |
 | --- | --- | --- |
 | **PROCESSING** | File is being scanned and registered | Wait 1–2 minutes and refresh |
-| **UPLOADED** | File stored successfully; no metadata required for this file type | Nothing — the file is ready |
 | **DRAFT** | File stored; required metadata fields are incomplete | Add metadata via the UI or CSV upload |
 | **PRIMARY** | File has complete metadata; available for analysis | Nothing — the file is ready |
 | **PII_DETECTED** | File was flagged for potential personal information | Contact your Lab Director immediately |
@@ -189,126 +168,3 @@ Files in APGAP cannot be permanently deleted without going through an Archive Re
 
 Your Lab Director will receive a notification and must approve the request before the file is archived. You'll be notified when a decision is made.
 
-# Lab Directors
-
-## Add a user to your lab
-
-New users must already have an account in APGAP before you can add them to your lab. If a user doesn't appear in the search, ask your Platform Admin to create their account first.
-You can add users from two places — from the Lab Roster or from the User Management section. From the Lab Roster:
-
-1. Click Labs → select your lab → Lab Roster tab
-1. Click Assign User
-1. Search for the user by email address
-1. Select their Role:
-- **Lab** **Director** — full lab admin, can manage roster and approve access requests
-- **Lab** **Collaborator** — read/write access, no admin capabilities
-- **Lab** **Reader** — read-only access
-1. Click **Assign** **User**
-
-The user will receive a notification that they've been added to the lab.
-
-**Note**: Platform Admins and Data Analysts cannot be added to labs — they have platform-wide access and are excluded from lab-level membership by design.
-
-## Change a user's role in your lab
-A user can only have one role per lab. To change their role, you need to remove them and re-add them with the new role.
-1. Click **Labs** → your lab → **Lab** **Roster** tab
-1. Find the user and click the trash can icon next to their name
-1. Confirm the removal
-1. Click **Assign** **User** and add them back with the new role
-
-## Remove a user from your lab
-1. Click **Labs** → your lab → **Lab** **Roster** tab
-1. Find the user you want to remove
-1. Click the trash can icon next to their name
-1. A confirmation dialog will appear — click **Yes**, **Remove**
-Removing a user from the lab removes their access to all files and projects in the lab. Their account is not deleted from the platform.
-
-## Create a project
-Projects live inside labs and provide an isolated workspace for a specific analysis effort. Each project can have its own set of Bioinformatics Users and its own Seqera pipeline workspace.
-1. Click **Labs** → your lab → **Projects** tab
-1. Click **Add** **Project**
-1. Fill in the **Project** **Title** — note that project titles cannot contain spaces
-1. Add a description
-1. Click **Create** **Project**
-**Note**: Creating a project triggers provisioning of a Seqera workspace in the background. This takes a few minutes. The Pipelines section of the project will be available once provisioning is complete.
-
-## Assign a user to a project
-Only users who are already members of your lab can be assigned to projects within that lab. Bioinformatics Users are typically assigned at the project level rather than the lab level.
-1. Click **Labs** → your lab → **Projects** tab → select the project
-1. Click the **Users** tab
-1. Click **Assign** **User**
-1. Select the user and their permissions
-1. Click **Assign** **User**
-
-## Approve or deny an access request
-When a researcher from another lab requests access to files in your lab, you'll receive a notification (the bell icon in the top right).
-1. Click the notification to go directly to the request, or navigate to **Labs** → your lab → **Access** **Requests**
-1. Review the request: who is asking, which files they need, and their stated justification
-1. For each file listed in the request, click **Approve** or **Deny**
-1. If denying a file, enter a reason (required)
-1. Click **Submit** **Decision**
-
-The researcher will be notified of your decision immediately.
-
-**Auto-approval**: If your organization has the auto-approval setting enabled, access requests from users within the same organization are approved automatically. You can review and revoke access later if needed.
-
-## Review files in DRAFT status
-Files stuck in DRAFT are one of the most common lab management tasks. To find them:
-1. Click Labs → your lab → Sequences tab
-1. Use the Filter or Search options to filter by Status = DRAFT
-
-For each DRAFT file, you can:
-- Click the filename to see which specific metadata fields are missing
-- Download a pre-filled CSV of all DRAFT files, complete what's missing, and import it back
-
-To export a CSV of all DRAFT files in your lab, click **Download** **CSV** **Template** and select the relevant Source Type. Any files that already have partial metadata will have those values pre-populated in the export.
-
-If you have a large DRAFT backlog and the metadata cannot be collected, contact your Platform Admin — they have the ability to bulk-promote files to PRIMARY status when a data quality trade-off is justified.
-
-# Bioinformatics Users
-
-## Create an Analytical Dataset
-
-An Analytical Dataset is a named, curated collection of files that you want to analyze together. Files can come from any lab you have access to. The dataset is the unit of access — if you need files from another lab, you request access at the dataset level.
-
-1. Navigate to **Labs** → your lab → your **Project**
-1. Click **Datasets** → **New** **Dataset**
-1. Enter a **Name** and **Description** for the dataset
-1. Click **Save**
-
-The dataset is created empty. Add files in the next step.
-
-## Add files to an Analytical Dataset
-1. Open your Analytical Dataset
-1. Click **Add** **Files**
-1. Search for files by lab, source type, organism, or filename
-1. Select the files you want to include
-1. Click **Add** **to** **Dataset**
-
-If any files you selected belong to labs you don't already have access to, the dataset status will show **PENDING** until the relevant Lab Directors have approved your access requests. You'll be notified as each decision is made.
-Files from labs you already have access to are added immediately.
-
-## Request access to files from another lab
-
-If your Analytical Dataset includes files from labs you don't have access to, APGAP will prompt you to submit access requests.
-
-1. Open your Analytical Dataset
-1. Click **Request** **Access** (visible if there are files awaiting approval)
-1. Review the files listed and add a justification explaining your research need
-1. Click **Submit**
-Each Lab Director whose files are included will receive a notification. You can track the status of each request within the dataset view. When all requests are resolved, the dataset becomes available for analysis.
-
-## Launch a pipeline
-
-Pipeline launching uses the Seqera Platform integration. Your project must have a provisioned Seqera workspace before pipelines are available.
-
-1. Navigate to **Labs** → your lab → your **Project**
-1. Click **Pipelines** → **Launch**
-1. Select a pipeline from the Seqera launchpad
-1. Configure the pipeline parameters as needed
-1. Select your Analytical Dataset as the input
-1. Click **Launch**
-
-Pipeline execution is tracked in Seqera Platform. When the pipeline completes, result files will appear in your project's file list.
-
-**Pipelines section is empty?** The Seqera workspace for this project may not have been provisioned yet, or provisioning may have failed. Contact your Platform Admin.
