@@ -16,10 +16,9 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 1. Click **Upload** **Files** to confirm
 Your file will show a status of **PROCESSING** for about 30–60 seconds while APGAP scans and registers it. When complete, the status will update to **UPLOADED** or **DRAFT**.
 **Tip**: You can upload multiple files at once using GUI upload. All files will share the same upload session.
-![Side bar image](/images/sidebar-labs.png)
-![Sequences tab](/images/sequences-tab.png)
 
-![Upload types](/images/upload-types.png)
+![Sequences Page](/images/sequences.png)
+
 
 ## Upload sequence files in bulk (Batch)
 Batch upload is designed for large volumes of files. Instead of uploading through your browser, APGAP creates a secure Google Cloud Storage endpoint that you transfer files to directly — useful for automated pipelines or very large files.
@@ -46,6 +45,8 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 1. Click **Download CSV Template**
 1. Select your **Source** **Type** from the dropdown
 1. Click **Download**
+
+![Template Download](/images/template-download.png)
 
 The CSV will download to your browser's default download folder. It's strongly recommended to rename the file before filling it in so you can track which batch it belongs to.
 

@@ -15,10 +15,12 @@ You can add users from two places — from the Lab Roster or from the User Manag
 1. Click Assign User
 1. Search for the user by email address
 1. Select their Role:
-- **Lab** **Director** — full lab admin, can manage roster and approve access requests
-- **Lab** **Collaborator** — read/write access, no admin capabilities
-- **Lab** **Reader** — read-only access
+    - **Lab** **Director** — full lab admin, can manage roster and approve access requests
+    - **Lab** **Collaborator** — read/write access, no admin capabilities
+    - **Lab** **Reader** — read-only access
 1. Click **Assign** **User**
+
+![Lab Roster](/images/lab-roster.png)
 
 The user will receive a notification that they've been added to the lab.
 

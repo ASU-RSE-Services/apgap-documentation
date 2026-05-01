@@ -22,7 +22,7 @@ APGAP sends in-app notifications (the bell icon in the top navigation bar) for e
 1. Toggle email notifications on or off for each event type
 1. Click **Save**
 
-![Notifications Page](/images/notifications.png)
+![Notifications Page](/images/notifications-whole.png)
 
 In-app notifications cannot be disabled — only email delivery can be turned off. The notification types available to you depend on your role.
 
