@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgb(75, 83, 83);
   --primary-dark: #6d1730;
+  --link-color: rgb(4, 174, 248);
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
   --gray-300: #d1d5db;
@@ -9,6 +10,10 @@
   --sidebar-bg: #ebf0f0;
   --sidebar-active: rgb(4, 174, 248);
   --white: #ffffff;
+}
+
+a[href] {
+  color: var(--link-color);
 }
 
 body {
@@ -89,6 +94,10 @@ body {
   }
 }
 
+.book-menu .book-menu-content,.book-toc .book-toc-content {
+  top: 0rem
+}
+
 // ============================================
 // SEARCH BOX
 // ============================================
@@ -142,6 +151,7 @@ body {
 
     &:hover {
       background-color: var(--gray-200);
+      color: var(--gray-500);
     }
 
     &.active {
