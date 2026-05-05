@@ -17,7 +17,7 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 Your file will show a status of **PROCESSING** for about 30–60 seconds while APGAP scans and registers it. When complete, the status will update to **UPLOADED** or **DRAFT**.
 **Tip**: You can upload multiple files at once using GUI upload. All files will share the same upload session.
 
-![Sequences Page](/images/sequences.png)
+![Sequences Page](/apgap-documentation/images/sequences.png)
 
 
 ## Upload sequence files in bulk (Batch)
@@ -46,7 +46,7 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 1. Select your **Source** **Type** from the dropdown
 1. Click **Download**
 
-![Template Download](/images/template-download.png)
+![Template Download](/apgap-documentation/images/template-download.png)
 
 The CSV will download to your browser's default download folder. It's strongly recommended to rename the file before filling it in so you can track which batch it belongs to.
 
