@@ -96,7 +96,7 @@ Save the file in CSV format (not XLSX). If you opened it in Excel or Numbers, be
 
 ## Import a completed metadata CSV
 1. Click **Labs** → select your lab → **Sequences** tab
-1. Click **Upload** **CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
+1. Click **Upload a preformatted CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
 1. Select your **Source** **Type** from the dropdown — this must match the Source Type you used when downloading the template
 1. Click Choose File and select your completed CSV
 1. Click **Import**
@@ -150,8 +150,8 @@ If you need data from another lab for your analysis, you can request access thro
 
 1. Click **Data** **Catalog** in the sidebar
 1. Browse or search for the Analytical Dataset containing the files you need
-1. Click **Request** **Access**
 1. Select the specific files you need from the dataset
+1. Click **Create Analytical Dataset**
 1. Add a justification explaining why you need access
 1. Click Submit
 
