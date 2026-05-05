@@ -22,5 +22,7 @@ APGAP sends in-app notifications (the bell icon in the bottom left menu) for eve
 1. Toggle email notifications on or off for each event type
 1. Click **Save** at the bottom of the page
 
+![Notifications Page](/images/notifications-whole.png)
+
 In-app notifications cannot be disabled — only email delivery can be turned off. The notification types available to you depend on your role.
 
