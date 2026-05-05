@@ -16,11 +16,13 @@ The left sidebar is your main navigation. What you see depends on your role — 
 To log out, click your name or avatar in the top right corner and select **Log out.**
 
 ## Update your notification preferences
-APGAP sends in-app notifications (the bell icon in the top navigation bar) for events like access request decisions, file status changes, and lab updates. You can control whether these also generate emails.
+APGAP sends in-app notifications (the bell icon in the bottom left menu) for events like access request decisions, file status changes, and lab updates. You can control whether these also generate emails.
 
-1. Click your name or avatar in the top right → **Profile** → **Notifications**
+1. Click your name in the bottom left → **Notifications** → **Notification Preferences**
 1. Toggle email notifications on or off for each event type
-1. Click **Save**
+1. Click **Save** at the bottom of the page
+
+![Notifications Page](/images/notifications-whole.png)
 
 In-app notifications cannot be disabled — only email delivery can be turned off. The notification types available to you depend on your role.
 
