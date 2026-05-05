@@ -117,6 +117,41 @@ Every file in APGAP has a status. Here's what they mean:
 
 The most common status to pay attention to is **DRAFT**. A file in DRAFT has been successfully stored in the platform — it isn't lost — but it needs complete metadata before it can be used in analysis or shared with other researchers.
 
+
+## Sequera
+APGAP uses **Seqera Platform** (formerly Nextflow Tower) to run bioinformatics
+pipelines. Each APGAP project gets its own dedicated Seqera workspace, which
+is provisioned automatically when the project is created — this is why
+creating a project triggers a few-minute background job before pipelines
+become available.
+
+### About Seqera
+
+APGAP integrates with **Seqera Platform** (formerly Nextflow Tower) to handle
+the actual execution of bioinformatics pipelines. Seqera is built by the
+creators of Nextflow — the open-source workflow language widely used in
+genomics — and it provides the orchestration, monitoring, and compute
+management that running pipelines at scale requires. Rather than reinventing
+this in APGAP, the platform launches pipelines through Seqera and tracks
+results back into your project.
+
+Each APGAP project maps to a **dedicated Seqera workspace** that gets
+provisioned automatically when you create the project. Inside that workspace,
+the **Launchpad** is your catalog of pre-configured pipelines (typically
+nf-core pipelines or custom workflows) ready to run against your data.
+
+From APGAP, you'll see a Pipelines tab and a launch button that takes the
+Analytical Datasets you've assembled and feeds them as input to a pipeline.
+The deeper monitoring, logs, resource usage, and run history live inside
+Seqera itself — APGAP links you straight to those views when you need them.
+
+> **Note:** Provisioning a workspace takes a few minutes after project
+> creation. If the Pipelines section stays empty for more than 10–15 minutes,
+> the workspace likely failed to provision — contact your Platform Admin.
+
+---
+
+
 ## Getting Help
 - **Lab-level questions** (access, file issues, metadata): contact your **Lab Director**
 - **Account or domain issues**: contact your **Platform Admin**
