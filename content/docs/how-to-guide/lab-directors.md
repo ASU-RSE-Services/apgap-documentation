@@ -20,7 +20,7 @@ You can add users from two places — from the Lab Roster or from the User Manag
     - **Lab** **Reader** — read-only access
 1. Click **Assign** **User**
 
-![Lab Roster](/images/lab-roster.png)
+![Lab Roster](/apgag-documentation/images/lab-roster.png)
 
 The user will receive a notification that they've been added to the lab.
 
