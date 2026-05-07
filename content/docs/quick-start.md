@@ -140,11 +140,6 @@ provisioned automatically when you create the project. Inside that workspace,
 the **Launchpad** is your catalog of pre-configured pipelines (typically
 nf-core pipelines or custom workflows) ready to run against your data.
 
-From APGAP, you'll see a Pipelines tab and a launch button that takes the
-Analytical Datasets you've assembled and feeds them as input to a pipeline.
-The deeper monitoring, logs, resource usage, and run history live inside
-Seqera itself — APGAP links you straight to those views when you need them.
-
 > **Note:** Provisioning a workspace takes a few minutes after project
 > creation. If the Pipelines section stays empty for more than 10–15 minutes,
 > the workspace likely failed to provision — contact your Platform Admin.
