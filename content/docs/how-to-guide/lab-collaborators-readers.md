@@ -17,7 +17,7 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 Your file will show a status of **PROCESSING** for about 30–60 seconds while APGAP scans and registers it. When complete, the status will update to **UPLOADED** or **DRAFT**.
 **Tip**: You can upload multiple files at once using GUI upload. All files will share the same upload session.
 
-![Sequences Page](/images/sequences.png)
+![Sequences Page](/apgap-documentation/images/sequences.png)
 
 
 ## Upload sequence files in bulk (Batch)
@@ -46,7 +46,7 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 1. Select your **Source** **Type** from the dropdown
 1. Click **Download**
 
-![Template Download](/images/template-download.png)
+![Template Download](/apgap-documentation/images/template-download.png)
 
 The CSV will download to your browser's default download folder. It's strongly recommended to rename the file before filling it in so you can track which batch it belongs to.
 
@@ -96,7 +96,7 @@ Save the file in CSV format (not XLSX). If you opened it in Excel or Numbers, be
 
 ## Import a completed metadata CSV
 1. Click **Labs** → select your lab → **Sequences** tab
-1. Click **Upload** **CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
+1. Click **Upload a preformatted CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
 1. Select your **Source** **Type** from the dropdown — this must match the Source Type you used when downloading the template
 1. Click Choose File and select your completed CSV
 1. Click **Import**
@@ -150,8 +150,8 @@ If you need data from another lab for your analysis, you can request access thro
 
 1. Click **Data** **Catalog** in the sidebar
 1. Browse or search for the Analytical Dataset containing the files you need
-1. Click **Request** **Access**
 1. Select the specific files you need from the dataset
+1. Click **Create Analytical Dataset**
 1. Add a justification explaining why you need access
 1. Click Submit
 

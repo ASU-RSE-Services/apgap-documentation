@@ -15,15 +15,6 @@ An Analytical Dataset is a named, curated collection of files that you want to a
 1. Enter a **Name** and **Description** for the dataset
 1. Click **Save**
 
-The dataset is created empty. Add files in the next step.
-
-## Add files to an Analytical Dataset
-1. Open your Analytical Dataset
-1. Click **Add** **Files**
-1. Search for files by lab, source type, organism, or filename
-1. Select the files you want to include
-1. Click **Add** **to** **Dataset**
-
 If any files you selected belong to labs you don't already have access to, the dataset status will show **PENDING** until the relevant Lab Directors have approved your access requests. You'll be notified as each decision is made.
 Files from labs you already have access to are added immediately.
 
