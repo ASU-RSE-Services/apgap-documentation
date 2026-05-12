@@ -4,7 +4,7 @@ date = 2026-04-07T07:07:07+01:00
 weight = 14
 +++
 
-# 2. Initial platform setup
+# Initial platform setup
 For a new APGAP deployment, complete these steps in order. Skipping steps or doing them out of order will cause errors (for example, you cannot create a lab without first having an organization).
 
 ### Recommended setup order

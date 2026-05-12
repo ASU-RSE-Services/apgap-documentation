@@ -1,5 +1,10 @@
++++
+title = 'Edit Metadata for a File'
+date = 2026-04-07t07:07:07+01:00
+weight = 3
++++
 
-## Add or edit metadata for a single file
+# Add or edit metadata for a single file
 
 For one-off updates to individual files, you can edit metadata directly in the UI without using a CSV.
 

@@ -1,3 +1,9 @@
++++
+title = 'Fill a Metadata CSV'
+date = 2026-04-07t07:07:07+01:00
+weight = 3
++++
+
 # Fill in a metadata CSV
 
 Once you've downloaded a template, fill it in following these rules:

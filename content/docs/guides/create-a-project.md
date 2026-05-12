@@ -4,7 +4,7 @@ date = 2026-04-07T07:07:07+01:00
 weight = 7
 +++
 
-## Create a project
+# Create a project
 Projects live inside labs and provide an isolated workspace for a specific analysis effort. Each project can have its own set of Bioinformatics Users and its own Seqera pipeline workspace.
 1. Click **Labs** → your lab → **Projects** tab
 1. Click **Add** **Project**

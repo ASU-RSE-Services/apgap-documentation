@@ -1,3 +1,8 @@
++++
+title = 'Create an Organization'
+date = 2026-04-07t07:07:07+01:00
+weight = 1
++++
 
 ### Create an organization
 1. Navigate to **Admin → Organizations** 

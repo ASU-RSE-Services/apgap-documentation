@@ -1,5 +1,11 @@
++++
+title = 'Requesting Access to Files'
+date = 2026-04-07t07:07:07+01:00
+weight = 1
+bookCollapseSection = true
++++
 
-## Request access to another lab's files
+# Request access to another lab's files
 
 If you need data from another lab for your analysis, you can request access through the Data Catalog.
 

@@ -4,7 +4,7 @@ date = 2026-04-07T07:07:07+01:00
 weight = 9
 +++
 
-## Launch a pipeline
+# Launch a pipeline
 
 Pipeline launching uses the Seqera Platform integration. Your project must have a provisioned Seqera workspace before pipelines are available.
 

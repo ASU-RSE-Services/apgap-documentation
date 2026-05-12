@@ -1,5 +1,10 @@
++++
+title = 'Managing Metadata templates'
+date = 2026-04-07t07:07:07+01:00
+weight = 3
++++
 
-## 8. Managing metadata templates
+# Managing metadata templates
 
 Metadata templates define which fields appear for each Source Type (Human, Wastewater, Wildlife, Animal/Livestock, etc.) and which are required for a file to reach PRIMARY status. Template changes affect all labs and all future CSV template downloads.
 

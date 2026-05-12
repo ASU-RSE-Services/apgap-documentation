@@ -4,7 +4,7 @@ date = 2026-04-07T07:07:07+01:00
 weight = 8
 +++
 
-## Create an Analytical Dataset
+# Create an Analytical Dataset
 
 An Analytical Dataset is a named, curated collection of files that you want to analyze together. Files can come from any lab you have access to. The dataset is the unit of access — if you need files from another lab, you request access at the dataset level.
 
