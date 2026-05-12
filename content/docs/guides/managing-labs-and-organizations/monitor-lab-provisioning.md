@@ -1,0 +1,8 @@
+
+### Monitor lab provisioning
+To check provisioning status:
+1. In the Labs list, look at the **Build** **Status** column for the lab
+1. If you need more detail, check Cloud Build logs in the GCP Console:
+- GCP Console → Cloud Build → History
+- Filter by trigger: lab-tf-apply
+- Find the run associated with your lab's project_prefix
