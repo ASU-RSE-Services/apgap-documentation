@@ -1,7 +1,8 @@
 +++
 title = 'Managing Labs and Organizations'
 date = 2026-04-07t07:07:07+01:00
-weight = 5
+weight = 2
+bookCollapseSection = true
 +++
 
 Organizations are the top-level container in APGAP. Each institution — ASU, ADHS, University of Arizona, NAU, TGen, or a partner agency — should be one Organization. Labs belong to Organizations.

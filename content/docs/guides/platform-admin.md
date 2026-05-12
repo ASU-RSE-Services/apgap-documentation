@@ -1,7 +1,7 @@
 +++
 title = 'Platform Admin'
 date = 2026-04-07T07:07:07+01:00
-weight = 3
+weight = 13
 +++
 
 # Platform Admin access and constraints

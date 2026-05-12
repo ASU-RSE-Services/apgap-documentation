@@ -1,7 +1,7 @@
 +++
 title = 'Log In'
 date = 2026-04-07T07:07:07+01:00
-weight = 3
+weight = 10
 +++
 
 # Log in and navigate the platform

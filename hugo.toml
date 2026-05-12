@@ -2,5 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'APGAP Documentation'
 theme = 'hugo-book'
+
 [params]
   BookMenuFoldable = true
