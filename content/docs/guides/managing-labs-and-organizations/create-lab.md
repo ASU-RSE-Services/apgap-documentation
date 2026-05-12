@@ -4,7 +4,7 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
-### Create a lab
+# Create a lab
 
 **Before proceeding**: Ensure the Organization exists and the designated Lab Director's user account has been created.
 1. Navigate to **Labs**
@@ -15,6 +15,6 @@ weight = 3
     - Add at least one **Lab** **Director**
 1. Click **Create** **Lab**
 
-The lab will appear in the roster with **Build Status: WORKING** while infrastructure is being provisioned. When complete, the status changes to **SUCCESS** and the lab can accept file uploads.
+The lab will appear in the roster with **Build Status: PENDING** while infrastructure is being provisioned. When complete, the status changes to **SUCCESS** and the lab can accept file uploads.
 
 **Do not add users or attempt file uploads until the Build Status shows SUCCESS.**

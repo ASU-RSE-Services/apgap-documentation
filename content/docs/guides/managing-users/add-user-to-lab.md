@@ -16,7 +16,6 @@ From the Lab Roster:
 1. Select their Role:
     - **Lab** **Director** — full lab admin, can manage roster and approve access requests
     - **Lab** **Collaborator** — read/write access, no admin capabilities
-    - **Lab** **Reader** — read-only access
 1. Click **Assign** **User**
 
 ![Lab Roster](/apgag-documentation/images/lab-roster.png)

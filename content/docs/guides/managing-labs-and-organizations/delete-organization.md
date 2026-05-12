@@ -4,7 +4,7 @@ date = 2026-04-07t07:07:07+01:00
 weight = 2
 +++
 
-### Delete an organization
+# Delete an organization
 ⚠️ Deleting an organization is not reversible through the UI. All associated labs and data will remain in the database but the organization will be hidden from all views.
 1. Navigate to **Admin → Organizations** 
 1. Find the organization and click the **Delete** icon
