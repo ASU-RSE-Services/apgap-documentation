@@ -4,6 +4,8 @@ date = 2026-04-07t07:07:07+01:00
 weight = 5
 +++
 
+**The Permissions required for this operation are Lab Director or Admin**
+
 # Remove a user from your lab
 1. Click **Labs** → your lab → **Lab** **Roster** tab
 1. Find the user you want to remove

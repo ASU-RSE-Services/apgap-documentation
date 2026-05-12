@@ -4,6 +4,8 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
+**The Permissions required for this operation are Lab Collaborator or Admin**
+
 # Download a metadata CSV template
 Metadata tells APGAP what each sequence file represents — the organism, collection date, location, and other scientific details. APGAP uses Source Types (Human, Wastewater, Wildlife, Animal/Livestock, etc.) to determine which fields are required.
 

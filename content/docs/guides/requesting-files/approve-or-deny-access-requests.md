@@ -5,6 +5,8 @@ weight = 2
 bookCollapseSection = true
 +++
 
+**The Permissions required for this operation are Lab Director or Admin**
+
 # Approve or deny an access request
 When a researcher from another lab requests access to files in your lab, you'll receive a notification (the bell icon in the top right).
 1. Click the notification to go directly to the request, or navigate to **Labs** → your lab → **Access** **Requests**

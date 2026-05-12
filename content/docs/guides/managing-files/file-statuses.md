@@ -4,7 +4,7 @@ date = 2026-04-07t07:07:07+01:00
 weight = 1
 +++
 
-## Check and understand file status
+# Check and understand file status
 
 Every file has a status shown in the Sequences tab. Here's what each status means and what to do:
 

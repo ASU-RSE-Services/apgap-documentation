@@ -4,6 +4,8 @@ date = 2026-04-07T07:07:07+01:00
 weight = 11
 +++
 
+**The Permissions required for this operation are Admin**
+
 # Managing the domain whitelist
 The domain whitelist controls what email domains are permitted to have accounts in APGAP. A user cannot be created unless their email domain is on the whitelist. Currently only Google-based domains can be used.
 

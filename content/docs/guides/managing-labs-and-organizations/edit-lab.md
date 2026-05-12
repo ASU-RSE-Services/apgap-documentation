@@ -4,6 +4,8 @@ date = 2026-04-07t07:07:07+01:00
 weight = 4
 +++
 
+**The Permissions required for this operation are Admin**
+
 # Edit a lab
 Lab names and descriptions can be edited through the UI:
 1. Click **Labs** → select the lab

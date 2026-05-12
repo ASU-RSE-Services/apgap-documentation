@@ -5,6 +5,8 @@ weight = 1
 bookCollapseSection = true
 +++
 
+**The Permissions required for this operation are Lab Collaborator Bioinformatics User or Admin**
+
 # Request access to another lab's files
 
 If you need data from another lab for your analysis, you can request access through the Data Catalog.

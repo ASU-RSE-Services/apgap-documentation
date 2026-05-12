@@ -4,6 +4,8 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
+**The Permissions required for this operation are Admin**
+
 # Create a lab
 
 **Before proceeding**: Ensure the Organization exists and the designated Lab Director's user account has been created.

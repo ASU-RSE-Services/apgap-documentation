@@ -4,6 +4,8 @@ date = 2026-04-07t07:07:07+01:00
 weight = 2
 +++
 
+**The Permissions required for this operation are Lab Director or Admin**
+
 # Add a User to your lab
 
 New users must already have an account in APGAP before you can add them to your lab. If a user doesn't appear in the search, ask your Platform Admin to create their account first.
