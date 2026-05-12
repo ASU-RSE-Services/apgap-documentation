@@ -1,7 +1,8 @@
 +++
 title = 'APGAP Ecosystem'
 date = 2026-04-07T07:07:07+01:00
-weight = 1
+weight = 2
+bookCollapseSection = true
 +++
 
 # APGAP Ecoysystem
