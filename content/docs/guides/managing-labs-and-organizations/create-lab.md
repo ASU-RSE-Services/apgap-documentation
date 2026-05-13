@@ -20,3 +20,6 @@ weight = 3
 The lab will appear in the roster with **Build Status: PENDING** while infrastructure is being provisioned. When complete, the status changes to **SUCCESS** and the lab can accept file uploads.
 
 **Do not add users or attempt file uploads until the Build Status shows SUCCESS.**
+
+![Create Lab](/apgap-documentation/images/create-lab.png)
+![Create Lab Details](/apgap-documentation/images/create-lab-details.png)
