@@ -6,6 +6,10 @@ weight = 1
 
 **The Permissions required for this operation are Lab Collaborator or Admin**
 
+# Upload Sequence Files
+
+There are several ways of uploading sequence files into APGAP. 
+
 ## Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.
 1. Click **Labs** in the sidebar
