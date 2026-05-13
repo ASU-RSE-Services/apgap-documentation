@@ -1,21 +1,10 @@
 +++
-title = 'All Users'
+title = 'Notification Settings'
 date = 2026-04-07T07:07:07+01:00
-weight = 1
+weight = 12
 +++
 
-# All Users
-
-## Log in and navigate the platform
-1. Navigate to https://apgap.prod.rtd.asu.edu
-1. Click **Sign in with Google** and select your institutional account
-1. After login you'll land on the Dashboard
-
-The left sidebar is your main navigation. What you see depends on your role — Platform Admins see an **Admin** section that other users don't.
-
-To log out, click your name or avatar in the top right corner and select **Log out.**
-
-## Update your notification preferences
+# Update your notification preferences
 APGAP sends in-app notifications (the bell icon in the bottom left menu) for events like access request decisions, file status changes, and lab updates. You can control whether these also generate emails.
 
 1. Click your name in the bottom left → **Notifications** → **Notification Preferences**
@@ -25,4 +14,3 @@ APGAP sends in-app notifications (the bell icon in the bottom left menu) for eve
 ![Notifications Page](/apgap-documentation/images/notifications-whole.png)
 
 In-app notifications cannot be disabled — only email delivery can be turned off. The notification types available to you depend on your role.
-
