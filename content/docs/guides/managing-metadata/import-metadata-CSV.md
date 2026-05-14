@@ -4,10 +4,12 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
+
+# Import a completed metadata CSV
+
 > [!WARNING]
 **The Permissions required for this operation are Lab Collaborator or Admin**
 
-# Import a completed metadata CSV
 1. Click **Labs** → select your lab → **Sequences** tab
 1. Click **Upload a preformatted CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
 1. Select your **Source** **Type** from the dropdown — this must match the Source Type you used when downloading the template

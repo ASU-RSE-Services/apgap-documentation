@@ -4,12 +4,13 @@ date = 2026-04-07t07:07:07+01:00
 weight = 1
 +++
 
-> [!WARNING]
-**The Permissions required for this operation are Lab Collaborator or Admin**
 
 # Upload Sequence Files
 
 There are several ways of uploading sequence files into APGAP. 
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator or Admin**
 
 ## Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.

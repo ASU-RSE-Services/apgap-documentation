@@ -5,11 +5,12 @@ weight = 14
 +++
 
 
-> [!WARNING]
-**The Permissions required for this operation are Admin**
 
 # Initial platform setup
 For a new APGAP deployment, complete these steps in order. Skipping steps or doing them out of order will cause errors (for example, you cannot create a lab without first having an organization).
+
+> [!WARNING]
+**The Permissions required for this operation are Admin**
 
 ### Recommended setup order
 

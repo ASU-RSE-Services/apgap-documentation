@@ -4,11 +4,12 @@ date = 2026-04-07t07:07:07+01:00
 weight = 1
 +++
 
-> [!WARNING]
-**The Permissions required for this operation are Admin**
 
 # Admin User Management
 APGAP does not support self-signup. All user accounts must be created by a Platform Admin.
+
+> [!WARNING]
+**The Permissions required for this operation are Admin**
 
 ### Create a user
 Before proceeding: Ensure the user's email domain is on the domain whitelist.

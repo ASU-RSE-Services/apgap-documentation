@@ -4,13 +4,13 @@ date = 2026-04-07T07:07:07+01:00
 weight = 11
 +++
 
-> [!WARNING]
-**The Permissions required for this operation are Admin**
 
 # Managing the domain whitelist
 The domain whitelist controls what email domains are permitted to have accounts in APGAP. A user cannot be created unless their email domain is on the whitelist. Currently only Google-based domains can be used.
 
 **Important**: Removing a domain from the whitelist does not deactivate existing users from that domain. Existing accounts remain active and can still log in. The whitelist is only checked when creating new accounts.
+> [!WARNING]
+**The Permissions required for this operation are Admin**
 
 ### Add a domain
 

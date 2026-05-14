@@ -4,12 +4,14 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
-> [!WARNING]
-**The Permissions required for this operation are Admin**
 
 # Create a lab
 
+> [!WARNING]
+**The Permissions required for this operation are Admin**
+
 **Before proceeding**: Ensure the Organization exists and the designated Lab Director's user account has been created.
+
 1. Navigate to **Labs**
 1. Click **Create** **Lab**
 1. In the dialog:

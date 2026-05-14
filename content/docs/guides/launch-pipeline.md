@@ -4,12 +4,13 @@ date = 2026-04-07T07:07:07+01:00
 weight = 9
 +++
 
-> [!WARNING]
-**The Permissions required for this operation are Bioinformatics User  or Admin**
 
 # Launch a pipeline
 
 Pipeline launching uses the Seqera Platform integration. Your project must have a provisioned Seqera workspace before pipelines are available.
+
+> [!WARNING]
+**The Permissions required for this operation are Bioinformatics User  or Admin**
 
 1. Navigate to **Labs** → your lab → your **Project**
 1. Click **Pipelines** → **Launch**
