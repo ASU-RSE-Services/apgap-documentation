@@ -4,10 +4,11 @@ date = 2026-04-07t07:07:07+01:00
 weight = 4
 +++
 
-**The Permissions required for this operation are Lab Collaborator or Admin**
-
 # Archive a file
 Files in APGAP cannot be permanently deleted without going through an Archive Request. This ensures an auditable record of why files were removed.
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator or Admin**
 
 1. Navigate to the file you want to archive in the Sequences tab
 1. Click the file name to open the file detail view

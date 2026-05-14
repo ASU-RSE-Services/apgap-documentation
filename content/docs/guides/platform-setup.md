@@ -5,6 +5,7 @@ weight = 14
 +++
 
 
+> [!WARNING]
 **The Permissions required for this operation are Admin**
 
 # Initial platform setup

@@ -4,6 +4,7 @@ date = 2026-04-07T07:07:07+01:00
 weight = 9
 +++
 
+> [!WARNING]
 **The Permissions required for this operation are Bioinformatics User  or Admin**
 
 # Launch a pipeline

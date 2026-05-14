@@ -4,6 +4,7 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
+> [!WARNING]
 **The Permissions required for this operation are Lab Collaborator or Admin**
 
 # Import a completed metadata CSV
