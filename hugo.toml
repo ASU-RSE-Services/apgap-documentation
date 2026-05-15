@@ -5,3 +5,4 @@ theme = 'hugo-book'
 
 [params]
   BookMenuFoldable = true
+  apgapVersion = "FE v1.0.0 BE v1.0.0"
