@@ -4,9 +4,11 @@ date = 2026-04-07t07:07:07+01:00
 weight = 4
 +++
 
-**The Permissions required for this operation are Admin**
 
 # Edit a lab
+
+> [!WARNING]
+**The Permissions required for this operation are Admin**
 Lab names and descriptions can be edited through the UI:
 1. Click **Labs** → select the lab
 1. Click **Edit**
@@ -15,3 +17,4 @@ Lab names and descriptions can be edited through the UI:
 
 The lab's Google Project ID (used for GCP resource naming) cannot be changed after creation.
 
+![Edit Organization](/images/edit-organization.png)

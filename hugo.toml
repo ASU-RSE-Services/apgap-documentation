@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://asu-rse-services.github.io/apgap-documentation/'
 languageCode = 'en-us'
 title = 'APGAP Documentation'
 theme = 'hugo-book'
 
 [params]
   BookMenuFoldable = true
+  apgapVersion = "FE v1.0.0, BE v1.0.0"

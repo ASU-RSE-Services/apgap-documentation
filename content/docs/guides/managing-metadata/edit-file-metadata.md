@@ -4,11 +4,13 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
-**The Permissions required for this operation are Lab Collaborator or Admin**
 
 # Add or edit metadata for a single file
 
 For one-off updates to individual files, you can edit metadata directly in the UI without using a CSV.
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator or Admin**
 
 1. Click **Labs** → your lab → **Sequences** tab
 1. Click the filename of the file you want to update

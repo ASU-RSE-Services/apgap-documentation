@@ -4,10 +4,13 @@ date = 2026-04-07t07:07:07+01:00
 weight = 2
 +++
 
-**The Permissions required for this operation are Lab Director or Admin**
 
 # Approve or deny an access request
 When a researcher from another lab requests access to files in your lab, you'll receive a notification (the bell icon in the top right).
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Director or Admin**
+
 1. Click the notification to go directly to the request, or navigate to **Labs** → your lab → **Access** **Requests**
 1. Review the request: who is asking, which files they need, and their stated justification
 1. For each file listed in the request, click **Approve** or **Deny**

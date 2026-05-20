@@ -4,9 +4,11 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
-**The Permissions required for this operation are Lab Director or Admin**
 
 # Review files in DRAFT status
+> [!WARNING]
+**The Permissions required for this operation are Lab Director or Admin**
+
 Files stuck in DRAFT are one of the most common lab management tasks. To find them:
 1. Click Labs → your lab → Sequences tab
 1. Use the Filter or Search options to filter by Status = DRAFT

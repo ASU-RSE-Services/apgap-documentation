@@ -4,11 +4,13 @@ date = 2026-04-07t07:07:07+01:00
 weight = 1
 +++
 
-**The Permissions required for this operation are Lab Collaborator or Admin**
 
 # Upload Sequence Files
 
 There are several ways of uploading sequence files into APGAP. 
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator or Admin**
 
 ## Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.
@@ -21,7 +23,7 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 Your file will show a status of **PROCESSING** for about 30–60 seconds while APGAP scans and registers it. When complete, the status will update to **UPLOADED** or **DRAFT**.
 **Tip**: You can upload multiple files at once using GUI upload. All files will share the same upload session.
 
-![Sequences Page](/apgap-documentation/images/sequences.png)
+![Sequences Page](/images/sequences.png)
 
 
 ## Upload sequence files in bulk (Batch)

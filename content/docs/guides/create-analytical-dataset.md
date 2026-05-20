@@ -4,10 +4,12 @@ date = 2026-04-07T07:07:07+01:00
 weight = 8
 +++
 
-**The Permissions required for this operation are Lab Collaborator, Bioinformatics User, or Admin**
 # Create an Analytical Dataset
 
 An Analytical Dataset is a named, curated collection of files that you want to analyze together. Files can come from any lab you have access to. The dataset is the unit of access — if you need files from another lab, you request access at the dataset level.
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator, Bioinformatics User, or Admin**
 
 1. Navigate to **Labs** → your lab → your **Project**
 1. Click **Datasets** → **New** **Dataset**

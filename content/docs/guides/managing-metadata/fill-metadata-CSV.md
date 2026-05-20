@@ -4,9 +4,11 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
-**The Permissions required for this operation are Lab Collaborator or Admin**
 
 # Fill in a metadata CSV
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator or Admin**
 
 Once you've downloaded a template, fill it in following these rules:
 

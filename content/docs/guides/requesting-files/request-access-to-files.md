@@ -4,11 +4,13 @@ date = 2026-04-07t07:07:07+01:00
 weight = 1
 +++
 
-**The Permissions required for this operation are Lab Collaborator Bioinformatics User or Admin**
 
 # Request access to another lab's files
 
 If you need data from another lab for your analysis, you can request access through the Data Catalog.
+
+> [!WARNING]
+**The Permissions required for this operation are Lab Collaborator Bioinformatics User or Admin**
 
 1. Click **Data** **Catalog** in the sidebar
 1. Browse or search for the Analytical Dataset containing the files you need

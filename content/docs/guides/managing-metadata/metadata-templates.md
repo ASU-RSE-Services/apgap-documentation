@@ -4,11 +4,13 @@ date = 2026-04-07t07:07:07+01:00
 weight = 3
 +++
 
-**The Permissions required for this operation are Admin**
 
 # Managing metadata templates
 
 Metadata templates define which fields appear for each Source Type (Human, Wastewater, Wildlife, Animal/Livestock, etc.) and which are required for a file to reach PRIMARY status. Template changes affect all labs and all future CSV template downloads.
+
+> [!WARNING]
+**The Permissions required for this operation are Admin**
 
 **This is an infrequently needed operation** — only make changes when adding support for a new Source Type or when a field definition needs to change. Incorrect changes can cause bulk metadata import failures across all labs.
 
