@@ -24,5 +24,5 @@ The lab will appear in the roster with **Build Status: PENDING** while infrastru
 
 **Do not add users or attempt file uploads until the Build Status shows SUCCESS.**
 
-![Create Lab](/apgap-documentation/images/create-lab.png)
-![Create Lab Details](/apgap-documentation/images/create-lab-details.png)
+![Create Lab](/images/create-lab.png)
+![Create Lab Details](/images/create-lab-details.png)

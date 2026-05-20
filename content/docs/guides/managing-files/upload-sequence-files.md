@@ -23,7 +23,7 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 Your file will show a status of **PROCESSING** for about 30–60 seconds while APGAP scans and registers it. When complete, the status will update to **UPLOADED** or **DRAFT**.
 **Tip**: You can upload multiple files at once using GUI upload. All files will share the same upload session.
 
-![Sequences Page](/apgap-documentation/images/sequences.png)
+![Sequences Page](/images/sequences.png)
 
 
 ## Upload sequence files in bulk (Batch)

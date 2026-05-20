@@ -17,4 +17,4 @@ weight = 1
     - Use this for internal teams or highly trusted partners where per-request approval is not required
 1. Click **Add Organization** 
 
-![Create Organization](/apgap-documentation/images/create-organization.png)
+![Create Organization](/images/create-organization.png)

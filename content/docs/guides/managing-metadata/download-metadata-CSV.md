@@ -16,7 +16,7 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 1. Select your **Source** **Type** from the dropdown
 1. Click **Download**
 
-![Template Download](/apgap-documentation/images/template-download.png)
+![Template Download](/images/template-download.png)
 
 The CSV will download to your browser's default download folder. It's strongly recommended to rename the file before filling it in so you can track which batch it belongs to.
 

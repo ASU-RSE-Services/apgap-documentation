@@ -17,4 +17,4 @@ Lab names and descriptions can be edited through the UI:
 
 The lab's Google Project ID (used for GCP resource naming) cannot be changed after creation.
 
-![Edit Organization](/apgap-documentation/images/edit-organization.png)
+![Edit Organization](/images/edit-organization.png)
