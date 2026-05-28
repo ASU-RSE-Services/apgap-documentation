@@ -8,9 +8,9 @@ weight = 3
 # Fill in a metadata CSV
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Collaborator or Admin**
+**The Permissions required for this operation are Lab Director or Bioinformatics User**
 
-Once you've downloaded a template, fill it in following these rules:
+Once you've downloaded a CSV template, fill it in following these rules:
 
 ### Filename column (required for every row)
 The filename must exactly match the file's name as it appears in the Sequences tab. Check for:
@@ -20,7 +20,7 @@ The filename must exactly match the file's name as it appears in the Sequences t
 
 ### Required fields
 
-Fields marked REQUIRED in Row 2 must have a value for the file to advance from DRAFT to PRIMARY status. Leaving a required field blank will cause that row to remain in DRAFT.
+Fields marked REQUIRED in Row 2 must have a value for the file to advance from DRAFT to PRIMARY status. Leaving a required field blank will cause that file to remain in DRAFT.
 
 ### Controlled vocabulary fields
 
@@ -40,7 +40,7 @@ Dates should be entered in YYYY-MM-DD format (e.g., 2026-03-15). Other formats m
 
 Fields like Age or Ct Value should contain numbers only (e.g., 35, not thirty-five or N/A). If a value is not available, leave the field blank rather than entering a placeholder.
 
-### After filling in the CSV:
+### After filling in the CSV
 
 Save the file in CSV format (not XLSX). If you opened it in Excel or Numbers, be sure to save as CSV before importing.
 

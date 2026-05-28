@@ -8,13 +8,14 @@ weight = 3
 # Import a completed metadata CSV
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Collaborator or Admin**
+**The Permissions required for this operation are Lab Director or Bioninformatics User**
 
 1. Click **Labs** → select your lab → **Sequences** tab
-1. Click **Upload a preformatted CSV** (or navigate to **Metadata** → **Import** **CSV** depending on your version)
+1. Select the files that you want to upload metadata for
+1. Click **Upload a preformatted CSV** 
 1. Select your **Source** **Type** from the dropdown — this must match the Source Type you used when downloading the template
-1. Click Choose File and select your completed CSV
-1. Click **Import**
+1. Click Choose File and select your completed CSV or drag and drop the file into the designated box
+1. Click **Upload CSV**
 
 The import results will show:
 - How many rows were successfully processed

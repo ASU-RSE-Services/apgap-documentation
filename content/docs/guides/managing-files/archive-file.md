@@ -8,15 +8,23 @@ weight = 4
 Files in APGAP cannot be permanently deleted without going through an Archive Request. This ensures an auditable record of why files were removed.
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Collaborator or Admin**
+**The Permissions required for this operation are Lab Director or Platform Admin**
 
 1. Navigate to the file you want to archive in the Sequences tab
-1. Click the file name to open the file detail view
-1. Click **Request** **Archive**
-1. Select the archive reason:
-- **NCBI** **SRA** — the file has been deposited to NCBI SRA; enter the accession number
-- **Other** — provide the external storage location and a justification
-1. Click **Submit**
+
+1. Click the banker's box icon to the right of the file
+
+1. A pop up will appear with this message: 
+
+   Our data retention policy mandates that sequences be available for five (5) years from the time of upload.
+
+   Your sequence has only been available in APGAP for N years.
+
+   In order to archive this sequence, you MUST provide an alternate storage location for access, like an **NCBI SRA** number after an upload to NCBI.
+
+1. Provide the external storage location
+
+1. Click **Yes, Archive**
 
 Your Lab Director will receive a notification and must approve the request before the file is archived. You'll be notified when a decision is made.
 

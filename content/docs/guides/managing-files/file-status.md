@@ -4,16 +4,16 @@ date = 2026-04-07t07:07:07+01:00
 weight = 1
 +++
 
-# Check and understand file status
+# Understand sequence file status
 
-Every file has a status shown in the Sequences tab. Here's what each status means and what to do:
+Every sequence file has a status listed in the Sequences tab. Here's what each status means and what to do:
 
 | Status | Meaning | What to do |
 | --- | --- | --- |
-| **PROCESSING** | File is being scanned and registered | Wait 1–2 minutes and refresh |
+| **PROCESSING** | File is being scanned and registered | Wait 5–10 minutes and refresh |
 | **DRAFT** | File stored; required metadata fields are incomplete | Add metadata via the UI or CSV upload |
 | **PRIMARY** | File has complete metadata; available for analysis | Nothing — the file is ready |
-| **PII_DETECTED** | File was flagged for potential personal information | Contact your Lab Director immediately |
+| **PII_DETECTED** | File was flagged for containing personal information | Contact your Lab Director immediately |
 | **FAILED** | A processing error occurred | Contact your Lab Director |
 | **ARCHIVED** | File has been archived to external storage | Contact your Lab Director if you need access |
 

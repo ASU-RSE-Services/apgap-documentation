@@ -7,14 +7,13 @@ weight = 1
 # Create an organization
 
 > [!WARNING]
-**The Permissions required for this operation are Admin**
+**The Permissions required for this operation are Platform Admin**
 
-1. Navigate to **Admin → Organizations** 
+1. Navigate to **Administration → Organizations** 
 1. Click **Add New Organization** 
 1. Enter the **Organization Name** (must be unique across the platform)
-1. Set **Default Approve Analytical Dataset Requests** if applicable:
-    - When enabled, access requests for files from this organization's labs are automatically approved when requested by users within the same organization
-    - Use this for internal teams or highly trusted partners where per-request approval is not required
+1. Set Reportable-pathogen auto-approval if applicable:
+    - When enabled, analytical dataset requests containing files associated with a reportable pathogen are automatically approved for the organization
 1. Click **Add Organization** 
 
 ![Create Organization](/images/create-organization.png)

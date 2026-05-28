@@ -6,11 +6,11 @@ weight = 2
 
 # Delete an organization
 > [!WARNING]
-> **The Permissions required for this operation are Admin**
+> **The Permissions required for this operation are Platform Admin**
 
 ⚠️ Deleting an organization is not reversible through the UI. All associated labs and data will remain in the database but the organization will be hidden from all views.
-1. Navigate to **Admin → Organizations** 
-1. Find the organization and click the **Delete** icon
+1. Navigate to **Administration → Organizations** 
+1. Find the organization and click the trash can icon
 1. In the confirmation dialog, click **Yes, delete** 
 
 Organizations are soft-deleted (active = False) — the underlying data is preserved but the organization is invisible to users.
