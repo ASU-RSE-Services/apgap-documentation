@@ -9,8 +9,7 @@ Platform Admin status is controlled by the is_platform_admin boolean flag on a u
 
 **Important constraints for Platform Admin accounts:**
 
-- Platform Admins **cannot be added to individual Labs or Projects**. The system enforces this — if a user needs both admin access and lab membership, use the Data Analyst role instead (platform-wide analytics access, no lab membership restrictions).
-- Platform Admin and Data Analyst flags are mutually exclusive in practice — a user should have one or the other, not both.
+- Platform Admins **cannot be added to individual Labs or Projects**. The system enforces this — if a user needs both admin access and lab membership...
 - Changes to the is_platform_admin flag take effect immediately. The user does not need to log out and back in.
 
-To set or remove Platform Admin status for a user, navigate to **Admin** → **User** **Management**, find the user, click the edit icon, and toggle the **Platform Admin** switch.
+To set or remove Platform Admin status for a user, navigate to **Administration** → **User** **Management**, find the user, click the edit icon, and toggle the **Platform Admin** switch.

@@ -9,9 +9,9 @@ weight = 4
 A user can only have one role per lab. To change their role, you need to remove them and re-add them with the new role.
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Director or Admin**
+**The Permissions required for this operation are Lab Director or Platform Admin**
 
 1. Click **Labs** → your lab → **Lab** **Roster** tab
-1. Find the user and click the trash can icon next to their name
-1. Confirm the removal
+1. Find the user and click the person icon next to their name
+1. Either change their role and click Update or click Remove User
 1. Click **Assign** **User** and add them back with the new role

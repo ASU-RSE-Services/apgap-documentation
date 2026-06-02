@@ -2,6 +2,7 @@
 title = 'Notification Settings'
 date = 2026-04-07T07:07:07+01:00
 weight = 12
+
 +++
 
 # Update your notification preferences
@@ -9,7 +10,7 @@ APGAP sends in-app notifications (the bell icon in the bottom left menu) for eve
 
 1. Click your name in the bottom left → **Notifications** → **Notification Preferences**
 1. Toggle email notifications on or off for each event type
-1. Click **Save** at the bottom of the page
+1. Click **Save preferences** at the top of the page
 
 ![Notifications Page](/images/notifications-whole.png)
 

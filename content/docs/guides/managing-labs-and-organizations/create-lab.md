@@ -8,16 +8,17 @@ weight = 3
 # Create a lab
 
 > [!WARNING]
-**The Permissions required for this operation are Admin**
+**The Permissions required for this operation are Platform Admin**
 
 **Before proceeding**: Ensure the Organization exists and the designated Lab Director's user account has been created.
 
 1. Navigate to **Labs**
-1. Click **Create** **Lab**
+1. Click **Add Lab**
 1. In the dialog:
     - Select the **Organization**
-    - Enter the **Lab** **Name** (display name)
-    - Add at least one **Lab** **Director**
+    - Enter the Lab Name (display name)
+    - Enter the Lab Description
+    - Assign at least one **Lab** **Director**
 1. Click **Create** **Lab**
 
 The lab will appear in the roster with **Build Status: PENDING** while infrastructure is being provisioned. When complete, the status changes to **SUCCESS** and the lab can accept file uploads.

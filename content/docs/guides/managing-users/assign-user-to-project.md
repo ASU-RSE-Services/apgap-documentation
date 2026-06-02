@@ -9,7 +9,7 @@ weight = 3
 Only users who are already members of your lab can be assigned to projects within that lab. Bioinformatics Users are typically assigned at the project level rather than the lab level.
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Director or Admin**
+**The Permissions required for this operation are Lab Director or Platform Admin**
 1. Click **Labs** → your lab → **Projects** tab → select the project
 1. Click the **Users** tab
 1. Click **Assign** **User**

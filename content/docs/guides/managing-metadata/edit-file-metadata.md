@@ -10,13 +10,13 @@ weight = 3
 For one-off updates to individual files, you can edit metadata directly in the UI without using a CSV.
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Collaborator or Admin**
+**The Permissions required for this operation are Lab Director or Bioinformatics User**
 
 1. Click **Labs** → your lab → **Sequences** tab
-1. Click the filename of the file you want to update
-1. Click **Add Metadata** (if no metadata exists) or **Edit Metadata**
+1. Click the filename or the pencil icon of the file you want to update
 1. Fill in or update the fields
 1. Click **Save**
+1. Click **Close Panel**
 
-Fields marked with a red asterisk are required for PRIMARY status. You can save partial metadata — the file will remain in DRAFT until all required fields are complete.
+Fields marked with a red asterisk are required for a file to receive PRIMARY status. You can save partial metadata — the file will remain in DRAFT until all required fields are complete.
 
