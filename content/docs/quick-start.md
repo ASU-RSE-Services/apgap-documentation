@@ -18,6 +18,11 @@ Open a browser and navigate to [https://apgap.prod.rtd.asu.edu](https://apgap.pr
 Click **Sign in with Google**
 Select your institutional Google account — this must match the email address registered in APGAP
 After a moment you'll be redirected to your dashboard
+- Open a browser and navigate to APGAP.
+- Click **Sign in with Google**.
+- Select your institutional Google account — this must match the email address registered in APGAP.
+- After a moment you'll be redirected to your dashboard.
+
 **Trouble logging in?**
 | What you see | What to do |
 | --- | --- |
@@ -39,7 +44,13 @@ Your role determines what you can see and do. Here's a quick summary of the role
 | **Lab Reader**          | View files in your lab. No data upload or edit permissions.  |
 
 After logging in all users will land on a Dashboard. The left sidebar acts as the main navigation panel.
-Here you will find links to your 1) **Dashboard** —  A landing page containing a high level view of dataset requests, sequence file status, and sequence archive requests; 2) **Labs** — A list of labs of which you are a member; 3) **Projects** —  A list of projects of which you are a member. containing projects, sequences,  and rosters; 4) **Data Catalog** — A browsable view of datasets available for analysis; 5) **Account info** — The lower left corner contains a rollover menu labeled with your email. Clicking on this will reveal links to **Notifications**, the **User Guide**, a form to **Report Issues**, and **Logout**. 6) The upper right hand corner contains a rollover menu labeled with your email. Clicking on this will reveal links to a **guided tour** of the site. 
+Here you will find links to your:   
+1) **Dashboard** —  A landing page containing a high level view of dataset requests, sequence file status, and sequence archive requests;  
+2) **Labs** — A list of labs of which you are a member;  
+3) **Projects** —  A list of projects of which you are a member; project contain datasets;   
+4) **Data Catalog** — A browsable view of sequence files available for analysis;  
+5) **Account info** — The lower left corner contains a rollover menu labeled with your email. Clicking on this will reveal links to **Notifications**, the **User Guide**, a form to **Report Issues**, and **Logout**.  
+6) The upper right hand corner shows your email address and a rollover menu labeled with "?". Clicking on "?" will reveal links to a **guided tour** of the site. 
 
 Visible to Platform Admins only is an **Administration** menu, which contains links to several user and website management areas.
 
@@ -54,7 +65,7 @@ Start by making sure your lab is configured properly. Click **Labs** → your la
 
 - **Projects** — are the right Bioinformatics Users assigned to each project?
 
-  To add a team member to your lab:
+To add a team member to your lab:
 1. Click **Labs** → your lab → Lab Roster
 1. Click **Assign User**
 1. Select a **Project** for the user from the dropdown menu
@@ -83,11 +94,10 @@ From your project you can:
 - Launch pipelines through the Seqera Workspace link (if your project workspace has been provisioned)
 - Launch Jupyter Notebooks by clicking on the Notebook link
 
-### If you're a Lab Collaborator or Lab Reader
+### If you're a Lab Collaborator
 
 Your primary home is your Lab. Click **Labs** in the sidebar, then click your lab name. You'll see tabs for **Sequences**, **Projects**, **Lab Roster**, and **Batch Endpoints.**
 
-1. 
 
 ### If you're a Platform Admin
 
@@ -103,14 +113,13 @@ The full Admin Guide covers each of these in detail, including recovery procedur
 
 ## Sequera
 APGAP leverages **Seqera Platform** (formerly Nextflow Tower) to manage the execution of bioinformatics
-pipelines. Seqera Platform is built and supported by Seqera, the company, which was foundd by the
+pipelines. Seqera Platform is built and supported by Seqera, the company, which was founded by the
 creators of Nextflow. Nextflow is an open-source workflow language widely used in
 genomics. The Nextflow CLI provides the orchestration, monitoring, and compute
 management that running pipelines at scale requires and Seqera Platform proveds the same tools in a browser-based web platform. Seqera Platform allows researchers to launch analytic pipelines via a comprehensive GUI and the results are tracked back into your APGAP project. Each APGAP project is automatically provisioned with its own dedicated Seqera workspace. Inside that workspace,
 the **Launchpad** is your catalog of pre-configured pipelines ready to run against your data.
 
-**Note:** Provisioning a workspace takes a few minutes after project
-creation. If a Seqera Workspace link doesn't appear after 15 minutes, contact your Platform Admin.
+**Note:** When creating a new project, a lab director can choose to also provision a Seqera Workspace. This process will take a few minutes. If a Seqera Workspace link doesn't appear in a completely provisioned project, even though the Sequera Workspace option was checked when creating the project, contact a Platform Admin.
 
 
 ## Getting Help

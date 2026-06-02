@@ -10,7 +10,7 @@ weight = 1
 There are several ways to upload sequence files into APGAP. 
 
 > [!WARNING]
-**The permissions required for this operation are Lab Director or Bioinformatics User**
+**The permissions required for this operation are Lab Director, Lab Collaborator, or Bioinformatics User**
 
 ## Upload a sequence file (GUI)
 GUI upload is the simplest way to get files into APGAP. Use this for single files or small batches where you want to upload through your browser.
@@ -19,7 +19,7 @@ GUI upload is the simplest way to get files into APGAP. Use this for single file
 1. Click the **Sequences** tab
 1. Click **Upload** **Sequences** → **GUI** **Upload**
 1. In the dialog that appears, drag and drop your file(s) into the designated box or click the **Choose a file** link to browse for files
-1. Click **Upload** **Files** to confirm. Your file(s) will show a status of **PROCESSING** for about 1-2 minutes while APGAP scans and registers them. When complete, the status will update to **DRAFT**.
+1. Click **Upload** **Files** to confirm. Your file(s) will show a status of **PROCESSING** for about 5-15 minutes (depending on file size) while APGAP scans and registers them. When complete, the status will update to **DRAFT**.
 
 ![Sequences Page](/images/sequences.png)
 
@@ -42,6 +42,6 @@ APGAP will generate a GCS bucket URI, a JSON key for authentication, and an uplo
 1. Edit the script to assign the **Service Key** and the **URI** to the KEY_FILE and GCS_BUCKET variables, respectively
 1. Edit the LOCAL_FILE variable to assign the pathname of the file(s) you want to upload. Wildcards (\*) and globs (\*.fastq) are permitted to match and upload multiple files.
 1. Run the bash script. It uses the Google Cloud CLI gsutil command to upload the files, so that must be installed prior to running the script.
-1. Your file(s) will show a status of **PROCESSING** for about 1-2 minutes while APGAP scans and registers them. When complete, the status will update to **DRAFT**.
+1. Your file(s) will show a status of **PROCESSING** for about 5-15 minutes (depending on file size)  while APGAP scans and registers them. When complete, the status will update to **DRAFT**.
 
 Service keys and URIs for all batch endpoints are listed under the **Batch Endpoint** tab. They may be used until they expire.

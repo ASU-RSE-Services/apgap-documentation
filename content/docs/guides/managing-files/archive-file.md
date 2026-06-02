@@ -8,7 +8,7 @@ weight = 4
 Files in APGAP cannot be permanently deleted without going through an Archive Request. This ensures an auditable record of why files were removed.
 
 > [!WARNING]
-**The Permissions required for this operation are Lab Director or Platform Admin**
+**The Permissions required for this operation are Lab Director, Lab Collaborator, Bioinformatics User or Platform Admin**
 
 1. Navigate to the file you want to archive in the Sequences tab
 
@@ -16,11 +16,11 @@ Files in APGAP cannot be permanently deleted without going through an Archive Re
 
 1. A pop up will appear with this message: 
 
-   Our data retention policy mandates that sequences be available for five (5) years from the time of upload.
+   *Our data retention policy mandates that sequences be available for five (5) years from the time of upload.*
 
-   Your sequence has only been available in APGAP for N years.
+   *Your sequence has only been available in APGAP for N years.*
 
-   In order to archive this sequence, you MUST provide an alternate storage location for access, like an **NCBI SRA** number after an upload to NCBI.
+  *In order to archive this sequence, you MUST provide an alternate storage location for access, like an **NCBI SRA** number after an upload to NCBI.*
 
 1. Provide the external storage location
 

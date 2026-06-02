@@ -17,6 +17,6 @@ Every sequence file has a status listed in the Sequences tab. Here's what each s
 | **FAILED** | A processing error occurred | Contact your Lab Director |
 | **ARCHIVED** | File has been archived to external storage | Contact your Lab Director if you need access |
 
-**A note on DRAFT files**: A file in DRAFT is safely stored — it isn't lost or corrupted. The DRAFT status simply means required metadata fields are incomplete. Once you add the missing metadata, the file will automatically advance to PRIMARY status.
+**A note on DRAFT files**: A file in DRAFT is safely stored — it isn't lost or corrupted. The DRAFT status simply means required metadata fields are incomplete. Once you add the missing metadata you can advance the file to PRIMARY status.
 To find all DRAFT files in your lab, use the **Filter** or **Search** options in the Sequences tab to filter by status.
 
