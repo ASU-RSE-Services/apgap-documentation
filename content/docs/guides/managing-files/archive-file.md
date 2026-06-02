@@ -5,7 +5,6 @@ weight = 4
 +++
 
 # Archive a file
-Files in APGAP cannot be permanently deleted without going through an Archive Request. This ensures an auditable record of why files were removed.
 
 > [!WARNING]
 **The Permissions required for this operation are Lab Director, Lab Collaborator, Bioinformatics User or Platform Admin**
