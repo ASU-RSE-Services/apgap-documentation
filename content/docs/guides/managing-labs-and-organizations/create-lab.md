@@ -18,12 +18,12 @@ weight = 3
     - Select the **Organization**
     - Enter the Lab Name (display name)
     - Enter the Lab Description
-    - Assign at least one **Lab** **Director**
-1. Click **Create** **Lab**
+    - Assign a **Lab Director**
+2. Click **Create Lab**
 
 The lab will appear in the roster with **Build Status: PENDING** while infrastructure is being provisioned. When complete, the status changes to **SUCCESS** and the lab can accept file uploads.
 
-**Do not add users or attempt file uploads until the Build Status shows SUCCESS.**
+**You will not be able to add users or upload files until the Build Status shows SUCCESS.**
 
 ![Create Lab](/images/add-lab.png)
 ![Create Lab Details](/images/add-lab-details.png)

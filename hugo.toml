@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'APGAP Documentation'
 theme = 'hugo-book'
 
+
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   BookMenuFoldable = true
   apgapVersion = "FE v1.0.0, BE v1.0.0"

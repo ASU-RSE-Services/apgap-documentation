@@ -9,6 +9,7 @@ weight = 4
 
 > [!WARNING]
 **The Permissions required for this operation are Platform Admin**
+
 Lab names and descriptions can be edited through the UI:
 1. Click **Labs** → select the lab
 1. Click **Edit**
