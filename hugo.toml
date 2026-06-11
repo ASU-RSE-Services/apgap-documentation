@@ -1,4 +1,4 @@
-baseURL = 'https://asu-rse-services.github.io/apgap-documentation/'
+baseURL = 'https://docs.azpathogens.org/'
 languageCode = 'en-us'
 title = 'APGAP Documentation'
 theme = 'hugo-book'
