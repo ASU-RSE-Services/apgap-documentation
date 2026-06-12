@@ -9,6 +9,7 @@ weight = 4
 
 > [!WARNING]
 **The Permissions required for this operation are Platform Admin**
+
 Lab names and descriptions can be edited through the UI:
 1. Click **Labs** → select the lab
 1. Click **Edit**
@@ -17,4 +18,4 @@ Lab names and descriptions can be edited through the UI:
 
 The lab's Google Cloud Project ID (used for GCP resource naming) cannot be changed after creation.
 
-![Edit Organization](/images/edit-organization.png)
+![Edit Organization](/images/edit-lab.png)

@@ -24,7 +24,7 @@ From the Lab Roster:
 1. Select Bioinformatics User permissions if needed
 1. Click **Assign** **User**
 
-![Lab Roster](/apgag-documentation/images/lab-roster.png)
+![Lab Roster](/images/lab-roster.png)
 
 The user will receive a notification that they've been added to the lab.
 
@@ -32,8 +32,8 @@ The user will receive a notification that they've been added to the lab.
 
 From User Management (Platform Admin only):
 1. Navigate to **Administration → User Management** 
-1. Find the user → click **Assign Lab** 
-1. Toggle the **Lab** **Director** switch if applicable
-1. Select the lab from the dropdown
-1. Click **Assign**
+2. Find the user → click **Assign Lab** 
+3. Toggle the **Lab** **Director** switch if applicable
+4. Select the lab from the dropdown
+5. Click **Assign**
 

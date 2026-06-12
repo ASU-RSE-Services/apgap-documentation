@@ -78,10 +78,9 @@ The integration follows a clean separation of concerns:
 | Audit trails for data access | Resource usage tracking |
 | Notification system | Pipeline catalog |
 
-When you launch a pipeline from APGAP, APGAP packages your Analytical Dataset
-as input and tells Seqera to run a specific pipeline against it. Seqera does
-the actual work and writes results back to a GCS location that APGAP can
-read. APGAP then surfaces the result files in your project.
+When you connect from APGAP to Seqera, APGAP provides your Analytical Dataset
+as input to Seqera so that you can run a specific pipeline against it. Seqera does
+the actual work and writes results back to a GCS location.
 
 ---
 
@@ -151,58 +150,29 @@ information.
 
 - Upload sequence files and add metadata
 - Create Analytical Datasets that group files for analysis
-- Click **Pipelines → Launch** to start a run
-- See a summary of recent runs and their status
-- Browse and download result files when a run completes
-
+  
 **You'll typically jump to Seqera for:**
 
+- Lauch pipelines
 - Detailed run monitoring while a pipeline is executing
 - Process-level logs (each step of the pipeline has its own log)
 - Resource usage graphs (CPU, memory, disk, runtime per task)
 - Re-running a previous workflow with modified parameters
 - Sharing run details with collaborators outside your APGAP project
 
-When you click into a pipeline run from APGAP, you're typically taken
-straight into the Seqera UI for that run. You won't usually need to log into
-Seqera separately — the integration handles authentication transparently for
-users with the appropriate APGAP roles.
-
 ---
 
 ## Provisioning behavior
 
 When you create a new APGAP project, **provisioning the Seqera workspace
-takes a few minutes** — typically 5 to 15. During this window, the project
-exists in APGAP and you can navigate to it, but the **Pipelines** section
-will be empty.
+takes a few minutes** — typically 5 to 15. 
 
-**What you should see:**
+If the creation of your project fails do the following:
 
-1. Project created → Pipelines section empty for a few minutes
-2. Provisioning completes → Pipelines section populates with the configured
-   pipelines
-
-**What to do if it doesn't:**
-
-If the Pipelines section is still empty after 15 minutes, the Seqera
-workspace provisioning likely failed. The most common causes are GCP quota
-issues, transient API failures, or IAM permission misconfigurations — all of
-which are recoverable by a Platform Admin.
-
-If you hit this:
-
-1. Note the project name and approximate time of creation
-2. Contact your Platform Admin and let them know the Pipelines section is
-   not appearing
-3. The Platform Admin can check the Cloud Build logs in the GCP console,
-   fix the underlying issue, and re-trigger provisioning
-
-While provisioning is being recovered, the rest of APGAP continues to work
-normally — you can still upload files to the lab, add metadata, and assemble
-Analytical Datasets. Only the pipeline launching for this specific project
-is affected. Once the workspace is provisioned, your existing dataset is
-ready to go.
+1. Note the project name and approximate time of creation.
+2. Contact your Platform Admin and provide them with this information.
+3. The Platform Admin can check the Cloud Build logs in the GCP console and try to
+   fix the underlying issue.
 
 If Seqera Platform itself is experiencing an outage (rare, but possible),
 file uploads and metadata management still work normally — only pipeline
