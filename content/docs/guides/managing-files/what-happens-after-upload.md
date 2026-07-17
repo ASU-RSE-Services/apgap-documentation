@@ -25,4 +25,4 @@ Processing usually takes 5–15 minutes depending on file size. Larger FASTQ fil
 | **FAILED** | A step in the pipeline did not complete in time, or errored | Delete the file and upload it again. If it fails a second time, contact your Lab Director with the filename |
 | **Stuck in PROCESSING** for much longer than expected | A very large file may still be scrubbing legitimately | Give it more time. APGAP automatically moves a file to **FAILED** once it passes its expected processing window, and notifies you — so a genuinely stuck file will not sit in PROCESSING forever |
 
-A file only reaches **DRAFT** or **PRIMARY** after it has cleared the PII scan and (for FASTQ) the scrubber. A file you can see and edit has already been through those checks.
+A file only reaches **DRAFT** after it has cleared the PII scan and (for FASTQ) the scrubber. A file you can see and edit has already been through those checks.
