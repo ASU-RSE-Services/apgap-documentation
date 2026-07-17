@@ -22,6 +22,13 @@ There are two ways to do this - through the metadata panel (for a single file) o
 1. Leave **Auto-promote my file to Primary once approved** checked if you want the file advanced to PRIMARY automatically on approval. If you uncheck it, the file stays in DRAFT after approval and you can promote it yourself.
 1. Click **Submit**
 
+#### Requesting new values in the metadata editor
+1. When you have uploaded a csv of metadata for multiple files, you will be taken to the metadata editor. Any values that do not match available options to select will be highlighted.
+2. Click the box to open the dropdown to view or search options. If your value isn't listed, click **Don't see what you need? Request new option** at the bottom of the dropdown.
+3. Enter the **Proposed value** you would like added.
+4. Optionally add a **Justification** - this is especially helpful to reviewers if you are requesting a new value that is similar to an existing value which does not meet your needs.
+5. Check **Auto-promote my file to Primary once approved** if you would like the file to advance to PRIMARY automatically on approval. If this is not checked, the file will remain in DRAFT status after the new value is approved and you can promote it yourself.
+6. Click **Submit**
 When you type a proposed value, APGAP suggests any existing options that look similar (including known aliases). Pick a suggestion if one matches — it avoids creating a duplicate value.
 
 ### While the request is pending
