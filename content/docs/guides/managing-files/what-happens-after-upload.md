@@ -11,7 +11,7 @@ When you upload a sequence file, it doesn't appear in your lab immediately. APGA
 ### The processing pipeline
 
 1. **Registration.** The file first goes into temporary storage for processing, is recorded in your lab and marked **PROCESSING**.
-1. **PII scan.** Google Cloud DLP scans the file for personal information. If it finds any, the file is set to **PII_DETECTED** and held.
+1. **PII scan.** Google Cloud DLP scans the file for personal information. If it finds any, the file is set to **PII_DETECTED** and held. The file does not leave temporary storage and will be promptly destroyed.
 1. **Human read scrubbing.** For FASTQ files, APGAP runs the SRA human read scrubber, which removes human sequence reads before the file is stored. This step loads a large reference database, so it takes longer for FASTQ files than for other file types. Non-FASTQ files skip this step.
 1. **Metadata check.** APGAP checks the file's metadata against the requirements for its Source Type. The file lands in **DRAFT** if required fields are missing, or **PRIMARY** if everything is present.
 
