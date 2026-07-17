@@ -11,6 +11,9 @@ Some metadata fields (SELECT fields) only accept values from a controlled list. 
 > [!WARNING]
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
 
+There are two ways to do this - through the metadata panel (for a single file) or the metadata editor (multiple files).
+
+#### Requesting new values through the metadata panel 
 1. Click **Labs** → your lab → **Sequences** tab
 1. Open the file (filename or pencil icon) and go to the SELECT field you want to set
 1. If your value isn't listed, click **Request a new option**
