@@ -133,7 +133,7 @@ over tuning tight.
 
 ### Mode 1b: Memory or CPU
 
-**Signature.** Batch `FAILED`; logs show OOM-kill or the process killed by the
+**Signature.** Batch `FAILED`; logs show OOM-kill (out of memory) or the process killed by the
 kernel with no out of disk space error.
 
 **Why.** Defaults are `cpu_milli: 8000` (8 vCPU) and `memory_mib: 15360`
