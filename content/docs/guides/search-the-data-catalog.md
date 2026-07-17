@@ -12,7 +12,7 @@ The Data Catalog is where you find sequence files across the platform — PRIMAR
 
 From here you have three ways to narrow the list:
 
-- **Filter by Lab** — use the lab selector to limit results to one or more labs. Labs aren't metadata, so this control sits next to the search rather than inside it.
+- **Filter by Lab, Source Type, or Pathogen** — use the lab selector to limit results to one or more labs. Labs aren't metadata, so this control sits next to the search rather than inside it. The others are metadata but available here for quick access.
 - **Advanced Search** — click **Advanced Search** to filter on metadata. The **Active Filters** box lists how many filters and of what type are currently active.
 
 ### Build a metadata filter
