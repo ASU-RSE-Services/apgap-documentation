@@ -32,4 +32,6 @@ To edit or remove an existing rule, use the **Edit** and **Delete** icons in the
 
 ### How rules take effect
 
-Rules run whenever a file is validated or promoted to PRIMARY. A rule produces either an **error**, which blocks promotion until the value is corrected, or a **warning**, which a user can acknowledge and continue. Users see the specific messages your rules generate in the file's metadata panel, so write rule messages that tell them what to fix.
+Rules run whenever a file is validated or promoted to PRIMARY. A rule produces either an **error**, which blocks promotion until the value is corrected, or a **warning**, which a user can acknowledge and continue. Users see the specific messages your rules generate in the file's metadata panel, so write rule messages that tell them what to fix. 
+
+Note that if a rule is changed for an existing metadata field, it will not apply retroactively to files that are already in PRIMARY status. However, if a correction is made to a PRIMARY file for that field, the new rule will apply at that time.
