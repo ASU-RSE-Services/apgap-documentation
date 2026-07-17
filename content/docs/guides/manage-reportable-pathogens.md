@@ -6,7 +6,7 @@ weight = 15
 
 # Register pathogens and mark them reportable
 
-The Pathogens list is the platform's registry of known pathogens and which of them are **reportable**. Marking a pathogen reportable matters beyond record-keeping: it drives metadata validation (fields that are only required for reportable pathogens) and access-request auto-approval, when your organization has that setting enabled.
+The Pathogens list is the platform's registry of known pathogens and which of them are **reportable**. Marking a pathogen reportable matters beyond record-keeping: it drives metadata validation (fields that are only required for reportable pathogens) and access-request auto-approval, when your organization has that setting enabled. *Note:* Novel or emerging pathogens are also maintained in this list. Reportable status is a legal designation and follows applicable state rules.
 
 > [!WARNING]
 **The Permissions required for this operation are Platform Admin**
