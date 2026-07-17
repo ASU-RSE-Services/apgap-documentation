@@ -6,7 +6,7 @@ weight = 4
 
 # Complete metadata and promote a file to PRIMARY
 
-A file stays in **DRAFT** status until it has all of its required metadata. Promoting it to **PRIMARY** status makes it available for analysis and visible in the Data Catalog. This guide covers how to complete the metadata and promote the file to **PRIMARY**, and what to do when promotion is blocked.
+A file stays in **DRAFT** status until it has all of its required metadata. Promoting it to **PRIMARY** status makes it visible in the Data Catalog and available to be copied into project datasets for analysis, pending any necessary access approvals. This guide covers how to complete the metadata and promote the file to **PRIMARY**, and what to do when promotion is blocked.
 
 > [!WARNING]
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
