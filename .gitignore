@@ -1,0 +1,7 @@
+# Hugo build output + cache
+public/
+resources/
+.hugo_build.lock
+
+# Screenshot raw captures (per docs plan — unannotated originals stay local)
+screenshots/raw/
