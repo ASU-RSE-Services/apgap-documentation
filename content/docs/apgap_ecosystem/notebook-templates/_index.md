@@ -7,7 +7,7 @@ bookCollapseSection = true
 
 # Notebook templates
 
-APGAP ships seven Jupyter notebooks pre-loaded into every project's Vertex AI Workbench. They cover the common paths a new user takes: getting oriented, reading data, running pipelines, pulling from external repositories, and looking up file formats and tool concepts.
+APGAP ships several Jupyter notebook templates pre-loaded into every project's Vertex AI Workbench. They cover the common paths a new user takes: getting oriented, reading data, running pipelines, pulling from external repositories, and looking up file formats and tool concepts.
 
 The notebooks live at `/home/jupyter/apgap-notebooks/notebooks/` on the Workbench. Open a notebook in JupyterLab and pick the **Python 3 (Local)** kernel from the launcher. Avoid the PyTorch, TensorFlow, and ipykernel variants; they are missing libraries these notebooks need. If you're new to the Workbench itself, start with the [Vertex AI Workbench primer](../vertex/).
 
@@ -61,7 +61,7 @@ A markdown-only reference notebook. Covers file formats you'll see across the pl
 
 Runs CDC's `tostadas` pipeline (the `feature/measles-vadr` branch, forked and patched for GCP Batch compatibility) to package an assembled consensus genome into a submission bundle for NCBI GenBank. Uses VADR for viral annotation and `table2asn` for the final `.sqn` submission file.
 
-Ships with three run modes: (1) dry-run on Glen's pre-loaded measles demo data, (2) dry-run on your own data, and (3) real submission to NCBI. Modes 1 and 2 require no NCBI credentials and produce no upstream artifacts. Mode 3 posts to NCBI's production endpoints. Read the un-comment checklist in the notebook before enabling it.
+Ships with three run modes: (1) dry-run on a small measles demo dataset, (2) dry-run on your own data, and (3) real submission to NCBI. Modes 1 and 2 require no NCBI credentials and produce no upstream artifacts. Mode 3 posts to NCBI's production endpoints. Read the un-comment checklist in the notebook before enabling it.
 
 **Prereqs:** nb 01 completed; consensus FASTA + metadata XLSX in a GCS bucket; NCBI account only for Mode 3.
 
@@ -73,4 +73,4 @@ Copies FASTQ files from Illumina BaseSpace into an APGAP ingest bucket. From the
 
 ## Where to find the source
 
-All seven notebooks live in the public repository at [`azpathogens/apgap-notebooks`](https://github.com/azpathogens/apgap-notebooks). The copy on your Workbench is a clone that stays in sync with `main`. If you find a bug or have a suggestion, file an issue there.
+All the notebooks live in the public repository at [`azpathogens/apgap-notebooks`](https://github.com/azpathogens/apgap-notebooks). The copy on your Workbench is a clone of that repository with the `main` branch checked out. If there are notebook updates you can retrieve them via `git pull`. If you find a bug or have a suggestion, file an issue in the repository.

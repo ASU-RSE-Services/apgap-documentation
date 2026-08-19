@@ -36,7 +36,3 @@ For background on how APGAP and Seqera work together, see the [Seqera Platform p
 
 - **NCBI account**: only if you plan a real submission through the tostadas pipeline (dry-runs don't need one). Sign up at https://account.ncbi.nlm.nih.gov.
 - **Illumina BaseSpace account with project access**: only if you plan to pull reads from BaseSpace through the basespace-copy pipeline. The account with the source data has to explicitly share the BaseSpace project with your account.
-
-## Getting help
-
-For access issues, start with your **Platform Admin** or your **Lab Director**. For pipeline or notebook questions, contact the analytical team at ASU-KE.
