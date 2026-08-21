@@ -5,16 +5,10 @@ weight = 2
 bookCollapseSection = true
 +++
 
-# APGAP Ecoysystem
+# APGAP Ecosystem
 
+APGAP integrates with two industry-leading tools, Seqera Platform and Vertex Workbench, to create a potent environment that facilitates genomic analysis workflows and exploratory data analysis.
 
-This section will provide a comprehensive overview of how our platform integrates industry-leading tools to streamline scientific discovery and data orchestration.
+Seqera Platform is a framework and orchestration engine that ensures complex bioinformatics pipelines are reproducible, resumable, scalable, and portable across any cloud or on-premise infrastructure with Nextflow installed.
 
-Central to our ecosystem is the synergy between APGAP, Seqera and Vertex:
-
-Seqera: Leveraging the power of Nextflow, Seqera serves as our primary orchestration engine. It ensures that complex bioinformatics pipelines are reproducible, scalable, and portable across any cloud or on-premises infrastructure.
-
-Vertex: By integrating with Vertex (including Vertex AI), APGAP incorporates advanced machine learning capabilities and intelligent data modeling, as well as the Jupyter Lab environment allowing users to run Python and R analysis on their data. This allows for deep insights, automated tax and procurement logic (where applicable), and AI-driven analysis of genomic datasets.
-
-Together, these components form a unified environment designed to bridge the gap between raw data and actionable scientific breakthroughs.
-
+Vertex Workbench provides a Jupyter Lab environment with built-in GCS bucket access so users can quickly and easily run Python and R analyses on their data.
