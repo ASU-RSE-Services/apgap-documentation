@@ -24,9 +24,9 @@ If you want a primer on how the Seqera workspace fits alongside your Vertex Work
 
 From the APGAP Portal, click the **WORKSPACE LINK** in your project's Seqera Workspace card. Seqera Platform opens in a new browser tab, dropped into your workspace's Launchpad.
 
-<!-- SCREENSHOT: shared/portal-project-workspace-link-button.png alt="APGAP Portal project page showing the Seqera Workspace card with the WORKSPACE LINK button visible" -->
+![APGAP Portal project page showing the Seqera Workspace card with the WORKSPACE LINK button visible](/images/shared/portal-project-workspace-link-button.png)
 
-<!-- SCREENSHOT: tostadas/seqera-01-add-pipeline-button.png alt="Seqera Launchpad view showing registered pipelines including tostadas-measles-vadr, with the Add pipeline button in the top-right for reference" -->
+![Seqera Launchpad view showing registered pipelines including tostadas-measles-vadr, with the Add pipeline button in the top-right for reference](/images/tostadas/seqera-01-add-pipeline-button.png)
 
 If `tostadas-measles-vadr` is already listed, skip to [Launching a run](#launching-a-run). If it is not, jump to [Registering tostadas from scratch](#registering-tostadas-from-scratch-admin-flow) first.
 
@@ -41,7 +41,7 @@ Because Config profiles, Work directory, and the Nextflow config file are baked 
    - **Compute environment** shows your workspace's compute env.
    - **Work directory** shows a `gs://` path in your workspace's seqera-output bucket.
 
-<!-- SCREENSHOT: tostadas/seqera-03b-general-config-profiles.png alt="Seqera launch form General config step with Config profiles measles and docker pre-populated as chips, the project's compute environment pre-selected, and Work directory set to the workspace's seqera-output bucket" -->
+![Seqera launch form General config step with Config profiles measles and docker pre-populated as chips, the project's compute environment pre-selected, and Work directory set to the workspace's seqera-output bucket](/images/tostadas/seqera-03b-general-config-profiles.png)
 
 Click **Next**.
 
@@ -61,7 +61,7 @@ Just the URL. **Do NOT prefix it with `outdir:`**. The field label already says 
 
 Increment the date suffix per run (or add a run-number suffix) so each launch writes to a fresh prefix. Same-prefix re-runs trip the GCS pseudo-directory bug in Nextflow's publishDir and produce noisy WARN messages (see [tostadas overview troubleshooting](../)).
 
-<!-- SCREENSHOT: tostadas/seqera-04-launch-form-params.png alt="Seqera launch form Run parameters step in Input form view, showing workflow=genbank, meta_path and outdir populated with gs:// paths, with the outdir field containing just a gs:// URL and no outdir: prefix" -->
+![Seqera launch form Run parameters step in Input form view, showing workflow=genbank, meta_path and outdir populated with gs:// paths, with the outdir field containing just a gs:// URL and no outdir: prefix](/images/tostadas/seqera-04-launch-form-params.png)
 
 Click **Next**.
 
@@ -77,15 +77,15 @@ process {
 }
 ```
 
-This is baked into the registration; if it's missing, launches will silently OOM on VADR annotation. See the [Registering tostadas from scratch](#registering-tostadas-from-scratch-admin-flow) section for how to add it if it disappeared.
+This is baked into the registration; if it's missing, launches will silently run out of memory on VADR annotation. See the [Registering tostadas from scratch](#registering-tostadas-from-scratch-admin-flow) section for how to add it if it disappeared.
 
-<!-- SCREENSHOT: tostadas/seqera-04b-advanced-nextflow-config.png alt="Seqera launch form Summary view showing the Advanced settings block with the Nextflow config file field containing the VADR_ANNOTATION memory override block" -->
+![Seqera launch form Summary view showing the Advanced settings block with the Nextflow config file field containing the VADR_ANNOTATION memory override block](/images/tostadas/seqera-04b-advanced-nextflow-config.png)
 
 Click **Next**.
 
 5. On the **Summary** step, verify pipeline URL (`https://github.com/azpathogens/tostadas`), revision (`feature/measles-vadr`), compute environment, profiles (`measles, docker`), and Work directory. Then scroll to the Run parameters section and verify the params look right.
 
-<!-- SCREENSHOT: tostadas/seqera-05-launch-form-summary.png alt="Seqera launch form Summary step showing General config section with pipeline URL, revision feature/measles-vadr, config profiles measles and docker, compute environment, and Work directory" -->
+![Seqera launch form Summary step showing General config section with pipeline URL, revision feature/measles-vadr, config profiles measles and docker, compute environment, and Work directory](/images/tostadas/seqera-05-launch-form-summary.png)
 
 Click **Launch**. Seqera redirects you to the run detail page immediately.
 
@@ -93,9 +93,9 @@ Click **Launch**. Seqera redirects you to the run detail page immediately.
 
 The run detail page progresses through: `Submitted` → `Running` → `Succeeded`. The progress bar hits 100% and the 8 process rows all turn green. Each task also gets a row in the Tasks table with its own status, container, and native ID.
 
-<!-- SCREENSHOT: tostadas/seqera-06-run-detail-succeeded.png alt="Seqera run detail page for a completed tostadas run showing Succeeded state, 100% workflow run progress, 8 succeeded task counter, all 8 process rows with green completion bars, and the Tasks table listing each task with Succeeded status" -->
+![Seqera run detail page for a completed tostadas run showing Succeeded state, 100% workflow run progress, 8 succeeded task counter, all 8 process rows with green completion bars, and the Tasks table listing each task with Succeeded status](/images/tostadas/seqera-06-run-detail-succeeded.png)
 
-<!-- SCREENSHOT: tostadas/seqera-06b-run-detail-overview.png alt="Seqera run detail overview showing Succeeded state and 8 process rows all completed for the tostadas GenBank workflow" -->
+![Seqera run detail overview showing Succeeded state and 8 process rows all completed for the tostadas GenBank workflow](/images/tostadas/seqera-06b-run-detail-overview.png)
 
 Expected wall-clock: 15-30 min cold on a fresh outdir, 5-10 min when a cached `-resume` hits. Most of the cold time is GCP Batch scheduling VMs and pulling the VADR container (large, ~1 GB).
 
@@ -150,7 +150,7 @@ Important: Config profiles, Work directory, and the Nextflow config file must be
    - **Revision:** `feature/measles-vadr`
    - **Pull latest:** ON
 
-<!-- SCREENSHOT: tostadas/seqera-02-add-pipeline-form-filled.png alt="Seqera Add pipeline form filled in with Name tostadas-measles-vadr, a short description, the workspace's compute environment, Pipeline to launch pointing at the azpathogens/tostadas repo, Revision feature/measles-vadr, Pull latest toggled on, and Work directory set to the workspace's seqera-output bucket" -->
+![Seqera Add pipeline form filled in with Name tostadas-measles-vadr, a short description, the workspace's compute environment, Pipeline to launch pointing at the azpathogens/tostadas repo, Revision feature/measles-vadr, Pull latest toggled on, and Work directory set to the workspace's seqera-output bucket](/images/tostadas/seqera-02-add-pipeline-form-filled.png)
 
 3. Scroll down to **Advanced options** (the critical part):
    - **Work directory:** `gs://<your-workspace-seqera-output-bucket>` (Seqera writes per-task scratch data here)

@@ -17,7 +17,7 @@ Reach for tostadas when you have a **consensus FASTA** (usually produced upstrea
 - Producing a dry-run submission package for internal review before a public release.
 - Building a repeatable submission workflow that fits inside a bioinformatics pipeline (not one-off manual submissions).
 
-If you only need raw reads (FASTQ) submitted to SRA, or want to update fields on an existing BioSample, tostadas supports those workflows too via the `--workflow biosample_sra` and `--workflow biosample_update` flags. This documentation focuses on the `genbank` workflow, which is the most common path and the one nb 06 (the tostadas launch notebook shipped in the Workbench) demonstrates.
+If you only need raw reads (FASTQ) submitted to SRA, or want to update fields on an existing BioSample, tostadas supports those workflows too via the `--workflow biosample_sra` and `--workflow biosample_update` flags. This documentation focuses on the `genbank` workflow, which is the most common path and the one [notebook 06 (the tostadas launch notebook)](../../notebook-templates/#06-launch-tostadas) demonstrates.
 
 ## How it works (customs office analogy)
 
@@ -65,7 +65,7 @@ Step-by-step walkthroughs for both paths land in the tutorial pages under this s
 
 ## Parameters
 
-The parameters below are the ones you commonly override at launch time. The pipeline exposes many more; see the [tostadas repo](https://github.com/azpathogens/tostadas) for the full reference.
+The parameters below are the ones you commonly override at launch time. The pipeline exposes many more; see the [tostadas repository](https://github.com/azpathogens/tostadas) for the full reference.
 
 | Parameter | Default | What it controls |
 | --- | --- | --- |
