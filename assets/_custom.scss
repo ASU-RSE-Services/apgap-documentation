@@ -7,7 +7,7 @@
   --gray-300: #d1d5db;
   --gray-400: #9ca3af;
   --gray-500: #6b7280;
-  --sidebar-bg: #ebf0f0;
+  --sidebar-bg: rgb(245, 245, 245);
   --sidebar-active: rgb(4, 174, 248);
   --white: #ffffff;
 }
@@ -31,14 +31,22 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 64px; // h-16
+  height: 4rem;
   display: flex;
   align-items: center;
   background-color: var(--sidebar-bg);
-  border-bottom: 1px solid var(--gray-200);
   z-index: 50;
-  padding: 0 1.5rem; // px-6
+  padding: 0 1.5rem;
 }
+.book-header .book-logo {}
+.book-header h2 {
+  font-size: 1.125rem;
+  font-weight: 800;
+  line-height: 1.75;
+  color: var(--primary-color);
+  margin: 0;
+}
+
 .book-logo {
   height: 2rem;
   width: auto;
@@ -82,7 +90,7 @@ body {
   padding: 1rem;
   overflow-y: auto;
   max-height: calc(100vh - 64px);
-  background-color: var(--gray-100);
+  background-color: var(--sidebar-bg);
 
   &::-webkit-scrollbar {
     width: 6px;
@@ -391,6 +399,7 @@ body {
   .book-header {
     padding: 0 1rem;
   }
+
   
   .book-menu-overlay {
     display: block;
