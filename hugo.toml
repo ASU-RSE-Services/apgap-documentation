@@ -1,6 +1,6 @@
 baseURL = 'https://docs.azpathogens.org/'
 languageCode = 'en-us'
-title = 'APGAP Documentation'
+title = 'Arizona Pathogens Genomics Analytics Platform Documentation'
 theme = 'hugo-book'
 
 
