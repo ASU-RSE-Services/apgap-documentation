@@ -2,6 +2,7 @@
 title = 'APGAP and Seqera Platform — A Primer'
 date = 2026-04-07T07:07:07+01:00
 weight = 4
+aliases = ['/docs/apgap_ecosystem/sequera/']
 +++
 
 # APGAP and Seqera Platform — A Primer
