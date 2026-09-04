@@ -54,6 +54,7 @@
     <img class="book-logo" src="{{ . | relURL }}" alt="{{ partial "docs/text/i18n" "Logo" }}" />
     {{- end -}}
     <h2>{{ .Site.Title }}</h2>
+    <p style="font-size: small; margin: auto 0 auto auto;" >APGAP Version: {{ .Site.Params.apgapVersion }}</p>
   {{ if partial "docs/toc-show" . }}
   <aside class="hidden">
     {{ template "toc" . }}
