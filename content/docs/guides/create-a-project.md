@@ -10,7 +10,7 @@ Projects live inside labs and provide an isolated workspace for a specific analy
 > [!WARNING]
 > **The permissions required for this operation are Lab Director**
 
-1. Click **Labs** → your lab → **Projects** tab
+1. Click **Projects** tab
 1. Click **Add** **Project**
 1. Fill in the **Project** **Title** — note that project titles cannot contain spaces
 1. Add a project description

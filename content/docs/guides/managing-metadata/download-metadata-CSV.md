@@ -11,7 +11,7 @@ Metadata tells APGAP what each sequence file represents — the organism, collec
 > [!WARNING]
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
 
-1. Click **Labs** → select your lab → **Sequences** tab
+1. Click **Sequences** tab
 1. Click **Download CSV Template**
 1. Select your **Source** **Type** of your samples from the dropdown
 1. Click **Download**

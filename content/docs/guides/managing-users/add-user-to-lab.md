@@ -14,7 +14,7 @@ You can add users from two places — from the Lab Roster or from the User Manag
 **The Permissions required for this operation are Lab Director or Platform Admin**
 
 From the Lab Roster:
-1. Click Labs → select your lab → Lab Roster tab
+1. Click Lab Roster tab
 1. Click Assign User
 1. Select the Project to associate the user with
 1. Search for the user by name

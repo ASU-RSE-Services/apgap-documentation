@@ -10,7 +10,7 @@ Only users who are already members of your lab can be assigned to projects withi
 
 > [!WARNING]
 **The Permissions required for this operation are Lab Director or Platform Admin**
-1. Click **Labs** → your lab → **Projects** tab → select the project
+1. Click **Projects** tab → select the project
 1. Click the **Users** tab
 1. Click **Assign** **User**
 1. Select the user and their permissions

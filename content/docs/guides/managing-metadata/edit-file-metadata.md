@@ -12,7 +12,7 @@ For one-off updates to individual files, you can edit metadata directly in the U
 > [!WARNING]
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
 
-1. Click **Labs** → your lab → **Sequences** tab
+1. Click **Sequences** tab
 1. Click the filename or the pencil icon of the file you want to update
 1. Fill in or update the fields
 1. Click **Save**

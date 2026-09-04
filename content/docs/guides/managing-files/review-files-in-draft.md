@@ -10,7 +10,7 @@ weight = 3
 **The Permissions required for this operation are Lab Director or Bioinformatics User**
 
 Files stuck in DRAFT are one of the most common lab management tasks. To find them:
-1. Click Labs → your lab → Sequences tab
+1. Click Sequences tab
 1. Use the Filter or Search options to filter by Status = DRAFT
 
 For each DRAFT file, you can:
