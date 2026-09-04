@@ -14,7 +14,7 @@ You can add users from two places — from the Lab Roster or from the User Manag
 **The Permissions required for this operation are Lab Director or Platform Admin**
 
 From the Lab Roster:
-1. Click Labs → select your lab → Lab Roster tab
+1. Click Lab Roster tab
 1. Click Assign User
 1. Select the Project to associate the user with
 1. Search for the user by name
@@ -24,7 +24,7 @@ From the Lab Roster:
 1. Select Bioinformatics User permissions if needed
 1. Click **Assign** **User**
 
-![Lab Roster](/images/lab-roster.png)
+![Lab Roster](/images/Add-User-Lab.png)
 
 The user will receive a notification that they've been added to the lab.
 

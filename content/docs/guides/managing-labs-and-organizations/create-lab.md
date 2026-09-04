@@ -25,5 +25,4 @@ The lab will appear in the roster with **Build Status: PENDING** while infrastru
 
 **You will not be able to add users or upload files until the Build Status shows SUCCESS.**
 
-![Create Lab](/images/add-lab.png)
-![Create Lab Details](/images/add-lab-details.png)
+![Create Lab](/images/Create-Lab.png)

@@ -10,7 +10,7 @@ Each APGAP project has a managed Vertex AI Workbench notebook attached to it, pr
 
 **To open the notebook:**
 
-1. Navigate to **Labs** → your lab → your **Project**
+1. Navigate to your **Project**
 2. If the notebooks is not running, start it.
 3. Once it has started (it will take a few minutes), click the **NOTEBOOK LINK** button inside the Vertex AI Workbench box.
 4. You'll be redirected to JupyterLab in a new tab, authenticated through your APGAP Google account.

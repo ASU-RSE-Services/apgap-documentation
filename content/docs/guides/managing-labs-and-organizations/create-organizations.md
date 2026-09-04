@@ -16,4 +16,4 @@ weight = 1
     - When enabled, analytical dataset requests containing files associated with a reportable pathogen are automatically approved for the organization
 1. Click **Add Organization** 
 
-![Create Organization](/images/add-organization.png)
+![Create Organization](/images/Add-Organization.png)

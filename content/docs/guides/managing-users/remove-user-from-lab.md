@@ -12,7 +12,7 @@ weight = 5
 
 Removing a user from the lab removes their access to all files and projects in the lab. Their account is not deleted from the platform.
 
-1. Click **Labs** → your lab → **Lab** **Roster** tab
+1. Click **Lab Roster** tab
 
 1. Find the user you want to remove
 

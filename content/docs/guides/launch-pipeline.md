@@ -12,7 +12,7 @@ Pipeline launching uses the Seqera Platform integration. Your project must have 
 > [!WARNING]
 **The permissions required for this operation are Lab Director or Bioinformatics User**
 
-1. Navigate to **Labs** → your lab → your **Project**
+1. Navigate to your **Project**
 1. Click on the Sequera workspace link
 1. Login to Seqera Platform
 1. Select a pipeline from the Seqera launchpad

@@ -1,6 +1,6 @@
 baseURL = 'https://docs.azpathogens.org/'
 languageCode = 'en-us'
-title = 'APGAP Documentation'
+title = 'Arizona Pathogens Genomics Analytics Platform Documentation'
 theme = 'hugo-book'
 
 
@@ -10,3 +10,4 @@ theme = 'hugo-book'
 [params]
   BookMenuFoldable = true
   apgapVersion = "FE v1.0.0, BE v1.6.0"
+  BookLogo = "images/apgap-logo-horizontal-black.png"
